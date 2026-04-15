@@ -1,0 +1,47 @@
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202611221740||ADT^A01|MSG13701|P|2.5
+EVN|A01|202611221740
+PID|1||P100137^^^HEART_FAILURE_INSTITUTE^MR||Hassan^Anika^Ibrahim||19980306|M||2106-3|206 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0137|||S||AC000137|999-88-0137
+PV1|1|E|ER^07^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V013701|||Reed^Thomas|||||||||||||||||||||||||202611221710
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202611221740|A
+RXE|^^^RX2001^Furosemide|20 mg daily|PO
+OBR|1||OB13701|BNP^Heart failure biomarker panel|||202611221710
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||1020|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||216|lb||A|||F
+NTE|1||Emergency presentation with fluid overload.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202611240900||ADT^A01|MSG13702|P|2.5
+EVN|A01|202611240900
+PID|1||P100137^^^HEART_FAILURE_INSTITUTE^MR||Hassan^Anika^Ibrahim||19980306|M||2106-3|206 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0137|||S||AC000137|999-88-0137
+PV1|1|I|CARD^05^11^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V013702|||Reed^Thomas|||||||||||||||||||||||||202611240830
+DG1|1||I50.9^Acute decompensated heart failure^ICD-10||202611240900|A
+RXE|^^^RX2002^Furosemide|40 mg daily|PO
+OBR|1||OB13702|BNP^Inpatient heart failure management|||202611240830
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||840|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||213|lb||A|||F
+NTE|1||Admitted for diuresis and medication optimization.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202612161015||ADT^A08|MSG13703|P|2.5
+EVN|A08|202612161015
+PID|1||P100137^^^HEART_FAILURE_INSTITUTE^MR||Hassan^Anika^Ibrahim||19980306|M||2106-3|206 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0137|||S||AC000137|999-88-0137
+PV1|1|O|CLINIC^01^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V013703|||Reed^Thomas|||||||||||||||||||||||||202612160945
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202612161015|A
+RXE|^^^RX2003^Furosemide + Carvedilol|40 mg daily + 3.125 mg BID|PO
+OBR|1||OB13703|BNP^Cardiology follow-up|||202612160945
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||590|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||207|lb||A|||F
+NTE|1||Early outpatient follow-up after discharge.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202702200925||ADT^A08|MSG13704|P|2.5
+EVN|A08|202702200925
+PID|1||P100137^^^HEART_FAILURE_INSTITUTE^MR||Hassan^Anika^Ibrahim||19980306|M||2106-3|206 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0137|||S||AC000137|999-88-0137
+PV1|1|O|CLINIC^01^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V013704|||Reed^Thomas|||||||||||||||||||||||||202702200855
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202702200925|A
+RXE|^^^RX2004^Furosemide + Carvedilol|40 mg daily + 6.25 mg BID|PO
+OBR|1||OB13704|BNP^Longitudinal heart failure monitoring|||202702200855
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||450|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||203|lb||A|||F
+NTE|1||Stable repeat visit with continued medication titration.
+AL1|1||SHELL^Shellfish allergy

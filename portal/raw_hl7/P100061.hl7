@@ -1,0 +1,10 @@
+MSH|^~\&|EHR_SYSTEM|PRIMARYCARE_ASSOCIATES|LAB_SYSTEM|REGIONAL_PREVENTIVE_LAB|202511070820||ADT^A04|MSG06101|P|2.5
+EVN|A04|202511070820
+PID|1||P100061^^^PRIMARYCARE_ASSOCIATES^MR||Campos^Riya^Louise||19801111|M||2106-3|130 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0061|||S||AC000061|999-88-0061
+PV1|1|O|CLINIC^01^01^PRIMARYCARE_ASSOCIATES|||Ross^Megan|||FM||||V006101|||Ross^Megan|||||||||||||||||||||||||202511070750
+DG1|1||Z00.00^Adult general medical examination^ICD-10||202511070820|A
+OBR|1||OB06101|ANNUAL^Annual physical screening|||202511070750
+OBX|1|NM|CHOL^Total Cholesterol||190|mg/dL|<200|N|||F
+OBX|2|NM|BMI^Body Mass Index||25.9|kg/m2|18.5-24.9|H|||F
+NTE|1||Routine annual physical with preventive screening.
+AL1|1||LATEX^Latex allergy

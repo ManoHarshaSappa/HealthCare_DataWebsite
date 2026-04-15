@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|INOVA_HOSPITAL|LAB_SYSTEM|INOVA_LAB|202605011310||ADT^A01|MSG09601|P|2.5
+EVN|A01|202605011310
+PID|1||P100096^^^INOVA_HOSPITAL^MR||Vega^Ruben^Victor||19861019|F||2106-3|165 Willow Bend Drive^^Reno^NV^89501^USA||(555)010-0096|||S||AC000096|999-88-0096
+PV1|1|E|ER^01^01^INOVA_HOSPITAL|||Miller^John|||SURG||||V009601|||Miller^John|||||||||||||||||||||||||202605011240
+DG1|1||K35.80^Acute appendicitis^ICD-10||202605011310|A
+RXE|^^^RX201^Ceftriaxone|1 g IV|IV
+OBR|1||OB09601|CBC^Complete Blood Count|||202605011240
+OBX|1|NM|WBC^White Blood Cell Count||14800|cells/uL|4000-11000|H|||F
+OBX|2|NM|TEMP^Body Temperature||101.2|F|97-99|H|||F
+NTE|1||Emergency presentation with abdominal pain.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|INOVA_SURGICAL_FOLLOW_UP|LAB_SYSTEM|INOVA_LAB|202605150930||ADT^A08|MSG09602|P|2.5
+EVN|A08|202605150930
+PID|1||P100096^^^INOVA_SURGICAL_FOLLOW_UP^MR||Vega^Ruben^Victor||19861019|F||2106-3|165 Willow Bend Drive^^Reno^NV^89501^USA||(555)010-0096|||S||AC000096|999-88-0096
+PV1|1|O|CLINIC^01^01^INOVA_SURGICAL_FOLLOW_UP|||Miller^John|||SURG||||V009602|||Miller^John|||||||||||||||||||||||||202605150900
+DG1|1||Z09^Follow-up examination after appendectomy^ICD-10||202605150930|A
+RXE|^^^RX202^Acetaminophen|500 mg every 6 hours as needed|PO
+OBR|1||OB09602|POSTOP^Post-operative review|||202605150900
+OBX|1|NM|WBC^White Blood Cell Count||8200|cells/uL|4000-11000|N|||F
+OBX|2|NM|TEMP^Body Temperature||98.6|F|97-99|N|||F
+NTE|1||Surgical follow-up with improving symptoms.
+AL1|1||IBU^Ibuprofen allergy

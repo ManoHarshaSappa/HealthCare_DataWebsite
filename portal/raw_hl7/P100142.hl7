@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|PACIFIC_CARE_HOSPITAL|LAB_SYSTEM|PACIFIC_IMAGING_CENTER|202612171400||ADT^A01|MSG14201|P|2.5
+EVN|A01|202612171400
+PID|1||P100142^^^PACIFIC_CARE_HOSPITAL^MR||Nguyen^Mila^Lee||19740811|F||2106-3|211 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0142|||S||AC000142|999-88-0142
+PV1|1|E|ER^02^01^PACIFIC_CARE_HOSPITAL|||Lopez^Maria|||EMED||||V014201|||Lopez^Maria|||||||||||||||||||||||||202612171330
+DG1|1||S93.401A^Right ankle sprain^ICD-10||202612171400|A
+RXE|^^^RX401^Ibuprofen|400 mg every 8 hours|PO
+OBR|1||OB14201|ANKXR^Ankle imaging review|||202612171330
+OBX|1|NM|PAIN^Pain Score||8|/10|0-10|H|||F
+OBX|2|ST|SWELL^Ankle Swelling||Moderate|||A|||F
+NTE|1||Twisting injury during recreational activity.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|PACIFIC_SPORTS_MEDICINE|LAB_SYSTEM|PACIFIC_IMAGING_CENTER|202612290850||ADT^A08|MSG14202|P|2.5
+EVN|A08|202612290850
+PID|1||P100142^^^PACIFIC_SPORTS_MEDICINE^MR||Nguyen^Mila^Lee||19740811|F||2106-3|211 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0142|||S||AC000142|999-88-0142
+PV1|1|O|CLINIC^01^01^PACIFIC_SPORTS_MEDICINE|||Lopez^Maria|||ORTH||||V014202|||Lopez^Maria|||||||||||||||||||||||||202612290820
+DG1|1||Z09^Follow-up after ankle sprain^ICD-10||202612290850|A
+RXE|^^^RX402^Naproxen|250 mg twice daily as needed|PO
+OBR|1||OB14202|REHAB^Mobility reassessment|||202612290820
+OBX|1|NM|PAIN^Pain Score||4|/10|0-10|N|||F
+OBX|2|ST|SWELL^Ankle Swelling||Mild|||N|||F
+NTE|1||Follow-up visit after bracing and rest.
+AL1|1||SULFA^Sulfonamide allergy

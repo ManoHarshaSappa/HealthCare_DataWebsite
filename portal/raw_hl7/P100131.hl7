@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|METRO_PULMONARY_HOSPITAL|LAB_SYSTEM|METRO_PULMONARY_LAB|202610231800||ADT^A01|MSG13101|P|2.5
+EVN|A01|202610231800
+PID|1||P100131^^^METRO_PULMONARY_HOSPITAL^MR||Turner^Elise^James||19920927|M||2106-3|200 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0131|||S||AC000131|999-88-0131
+PV1|1|E|ER^06^01^METRO_PULMONARY_HOSPITAL|||Stone^Elias|||PULM||||V013101|||Stone^Elias|||||||||||||||||||||||||202610231730
+DG1|1||J44.1^COPD with acute exacerbation^ICD-10||202610231800|A
+RXE|^^^RX1401^Ipratropium/Albuterol|Nebulized every 4 hours|INH
+OBR|1||OB13101|RESP^COPD exacerbation panel|||202610231730
+OBX|1|NM|O2SAT^Oxygen Saturation||86|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||27|/min|12-20|H|||F
+NTE|1||Emergency visit for worsening shortness of breath.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|METRO_PULMONARY_HOSPITAL|LAB_SYSTEM|METRO_PULMONARY_LAB|202610250915||ADT^A01|MSG13102|P|2.5
+EVN|A01|202610250915
+PID|1||P100131^^^METRO_PULMONARY_HOSPITAL^MR||Turner^Elise^James||19920927|M||2106-3|200 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0131|||S||AC000131|999-88-0131
+PV1|1|I|MEDSURG^04^08^METRO_PULMONARY_HOSPITAL|||Stone^Elias|||PULM||||V013102|||Stone^Elias|||||||||||||||||||||||||202610250845
+DG1|1||J44.1^COPD with acute exacerbation^ICD-10||202610250915|A
+RXE|^^^RX1402^Prednisone|40 mg daily|PO
+OBR|1||OB13102|FOLLOW^Inpatient respiratory monitoring|||202610250845
+OBX|1|NM|O2SAT^Oxygen Saturation||90|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||23|/min|12-20|H|||F
+NTE|1||Admitted after persistent hypoxia.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|METRO_PULMONARY_CLINIC|LAB_SYSTEM|METRO_PULMONARY_LAB|202611201000||ADT^A08|MSG13103|P|2.5
+EVN|A08|202611201000
+PID|1||P100131^^^METRO_PULMONARY_CLINIC^MR||Turner^Elise^James||19920927|M||2106-3|200 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0131|||S||AC000131|999-88-0131
+PV1|1|O|CLINIC^01^01^METRO_PULMONARY_CLINIC|||Stone^Elias|||PULM||||V013103|||Stone^Elias|||||||||||||||||||||||||202611200930
+DG1|1||J44.9^Chronic obstructive pulmonary disease^ICD-10||202611201000|A
+RXE|^^^RX1403^Tiotropium inhaler|1 capsule inhaled daily|INH
+OBR|1||OB13103|FOLLOW^Pulmonary follow-up|||202611200930
+OBX|1|NM|O2SAT^Oxygen Saturation||95|%|95-100|N|||F
+OBX|2|NM|RESP^Respiratory Rate||18|/min|12-20|N|||F
+NTE|1||Outpatient follow-up after inpatient treatment.
+AL1|1||NKDA^No Known Drug Allergies

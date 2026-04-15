@@ -1,0 +1,11 @@
+MSH|^~\&|EHR_SYSTEM|DOWNTOWN_URGENT_CARE|LAB_SYSTEM|REGIONAL_RAPID_LAB|202503171215||ADT^A04|MSG01401|P|2.5
+EVN|A04|202503171215
+PID|1||P100014^^^DOWNTOWN_URGENT_CARE^MR||Kim^Noah^David||19880209|M||2106-3|901 Willow Drive^^Portland^OR^97204^USA||(555)010-0014|||S||AC000014|999-88-0014
+PV1|1|O|CLINIC^01^01^DOWNTOWN_URGENT_CARE|||Ross^Megan|||FM||||V001401|||Ross^Megan|||||||||||||||||||||||||202503171145
+DG1|1||J06.9^Acute upper respiratory infection^ICD-10||202503171215|A
+RXE|^^^RX1101^Benzonatate|100 mg three times daily as needed|PO
+OBR|1||OB01401|RESP^Respiratory symptom review|||202503171145
+OBX|1|NM|TEMP^Body Temperature||99.8|F|97-99|H|||F
+OBX|2|NM|PULSE^Pulse Rate||94|bpm|60-100|N|||F
+NTE|1||Single urgent care visit for viral symptoms.
+AL1|1||NKDA^No Known Drug Allergies

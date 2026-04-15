@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202609181040||ADT^A04|MSG12401|P|2.5
+EVN|A04|202609181040
+PID|1||P100124^^^SEATTLE_NEURO_CLINIC^MR||Keller^Micah^Skye||19850220|F||2106-3|193 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0124|||S||AC000124|999-88-0124
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V012401|||Brown^Natalie|||||||||||||||||||||||||202609181010
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202609181040|A
+RXE|^^^RX801^Sumatriptan|50 mg as needed|PO
+OBR|1||OB12401|NEURO^Headache assessment|||202609181010
+OBX|1|NM|PAIN^Headache Severity||9|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||5|hours|6-8|L|||F
+NTE|1||Migraine symptoms interfering with sleep.
+AL1|1||PEN^Penicillin
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202610280930||ADT^A08|MSG12402|P|2.5
+EVN|A08|202610280930
+PID|1||P100124^^^SEATTLE_NEURO_CLINIC^MR||Keller^Micah^Skye||19850220|F||2106-3|193 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0124|||S||AC000124|999-88-0124
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V012402|||Brown^Natalie|||||||||||||||||||||||||202610280900
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202610280930|A
+RXE|^^^RX802^Sumatriptan + Topiramate|50 mg PRN + 25 mg nightly|PO
+OBR|1||OB12402|FOLLOW^Medication review|||202610280900
+OBX|1|NM|PAIN^Headache Severity||6|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Preventive medication added after partial response.
+AL1|1||PEN^Penicillin
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202612270855||ADT^A08|MSG12403|P|2.5
+EVN|A08|202612270855
+PID|1||P100124^^^SEATTLE_NEURO_CLINIC^MR||Keller^Micah^Skye||19850220|F||2106-3|193 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0124|||S||AC000124|999-88-0124
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V012403|||Brown^Natalie|||||||||||||||||||||||||202612270825
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202612270855|A
+RXE|^^^RX803^Topiramate|50 mg nightly|PO
+OBR|1||OB12403|FOLLOW^Neurology follow-up|||202612270825
+OBX|1|NM|PAIN^Headache Severity||3|/10|0-10|N|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Headache frequency reduced on preventive regimen.
+AL1|1||PEN^Penicillin

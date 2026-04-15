@@ -1,0 +1,47 @@
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202506251740||ADT^A01|MSG03401|P|2.5
+EVN|A01|202506251740
+PID|1||P100034^^^HEART_FAILURE_INSTITUTE^MR||Davis^Samuel^Aaron||19711009|M||2106-3|205 Pine Creek^^Pittsburgh^PA^15222^USA||(555)010-0034|||S||AC000034|999-88-0034
+PV1|1|E|ER^07^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V003401|||Reed^Thomas|||||||||||||||||||||||||202506251710
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202506251740|A
+RXE|^^^RX2001^Furosemide|20 mg daily|PO
+OBR|1||OB03401|BNP^Heart failure biomarker panel|||202506251710
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||980|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||212|lb||A|||F
+NTE|1||Emergency presentation with fluid overload.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202506270900||ADT^A01|MSG03402|P|2.5
+EVN|A01|202506270900
+PID|1||P100034^^^HEART_FAILURE_INSTITUTE^MR||Davis^Samuel^Aaron||19711009|M||2106-3|205 Pine Creek^^Pittsburgh^PA^15222^USA||(555)010-0034|||S||AC000034|999-88-0034
+PV1|1|I|CARD^05^11^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V003402|||Reed^Thomas|||||||||||||||||||||||||202506270830
+DG1|1||I50.9^Acute decompensated heart failure^ICD-10||202506270900|A
+RXE|^^^RX2002^Furosemide|40 mg daily|PO
+OBR|1||OB03402|BNP^Inpatient heart failure management|||202506270830
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||810|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||209|lb||A|||F
+NTE|1||Admitted for diuresis and medication optimization.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202507191015||ADT^A08|MSG03403|P|2.5
+EVN|A08|202507191015
+PID|1||P100034^^^HEART_FAILURE_INSTITUTE^MR||Davis^Samuel^Aaron||19711009|M||2106-3|205 Pine Creek^^Pittsburgh^PA^15222^USA||(555)010-0034|||S||AC000034|999-88-0034
+PV1|1|O|CLINIC^01^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V003403|||Reed^Thomas|||||||||||||||||||||||||202507190945
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202507191015|A
+RXE|^^^RX2003^Furosemide + Carvedilol|40 mg daily + 3.125 mg BID|PO
+OBR|1||OB03403|BNP^Cardiology follow-up|||202507190945
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||565|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||204|lb||A|||F
+NTE|1||Early outpatient follow-up after discharge.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202509230925||ADT^A08|MSG03404|P|2.5
+EVN|A08|202509230925
+PID|1||P100034^^^HEART_FAILURE_INSTITUTE^MR||Davis^Samuel^Aaron||19711009|M||2106-3|205 Pine Creek^^Pittsburgh^PA^15222^USA||(555)010-0034|||S||AC000034|999-88-0034
+PV1|1|O|CLINIC^01^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V003404|||Reed^Thomas|||||||||||||||||||||||||202509230855
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202509230925|A
+RXE|^^^RX2004^Furosemide + Carvedilol|40 mg daily + 6.25 mg BID|PO
+OBR|1||OB03404|BNP^Longitudinal heart failure monitoring|||202509230855
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||430|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||200|lb||A|||F
+NTE|1||Stable repeat visit with continued medication titration.
+AL1|1||ASA^Aspirin allergy

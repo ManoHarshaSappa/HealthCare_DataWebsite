@@ -1,0 +1,10 @@
+MSH|^~\&|EHR_SYSTEM|PRIMARYCARE_ASSOCIATES|LAB_SYSTEM|REGIONAL_PREVENTIVE_LAB|202610030820||ADT^A04|MSG12701|P|2.5
+EVN|A04|202610030820
+PID|1||P100127^^^PRIMARYCARE_ASSOCIATES^MR||Wallace^Tara^Javier||19880523|M||2106-3|196 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0127|||S||AC000127|999-88-0127
+PV1|1|O|CLINIC^01^01^PRIMARYCARE_ASSOCIATES|||Ross^Megan|||FM||||V012701|||Ross^Megan|||||||||||||||||||||||||202610030750
+DG1|1||Z00.00^Adult general medical examination^ICD-10||202610030820|A
+OBR|1||OB12701|ANNUAL^Annual physical screening|||202610030750
+OBX|1|NM|CHOL^Total Cholesterol||190|mg/dL|<200|N|||F
+OBX|2|NM|BMI^Body Mass Index||25.9|kg/m2|18.5-24.9|H|||F
+NTE|1||Routine annual physical with preventive screening.
+AL1|1||ASA^Aspirin allergy

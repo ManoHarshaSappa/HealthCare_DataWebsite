@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|BAY_ORTHO_MEDICAL|LAB_SYSTEM|BAY_IMAGING_LAB|202606101100||ADT^A04|MSG10401|P|2.5
+EVN|A04|202606101100
+PID|1||P100104^^^BAY_ORTHO_MEDICAL^MR||Keller^Rowan^Skye||19940627|F||2106-3|173 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0104|||S||AC000104|999-88-0104
+PV1|1|O|CLINIC^01^01^BAY_ORTHO_MEDICAL|||Wilson^Grace|||ORTH||||V010401|||Wilson^Grace|||||||||||||||||||||||||202606101030
+DG1|1||M54.50^Low back pain^ICD-10||202606101100|A
+RXE|^^^RX1001^Naproxen|500 mg twice daily|PO
+OBR|1||OB10401|SPXR^Spine evaluation|||202606101030
+OBX|1|NM|PAIN^Back Pain Score||8|/10|0-10|H|||F
+OBX|2|ST|MOB^Mobility Assessment||Reduced|||A|||F
+NTE|1||Mechanical back pain after lifting injury.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|BAY_ORTHO_MEDICAL|LAB_SYSTEM|BAY_IMAGING_LAB|202607081030||ADT^A08|MSG10402|P|2.5
+EVN|A08|202607081030
+PID|1||P100104^^^BAY_ORTHO_MEDICAL^MR||Keller^Rowan^Skye||19940627|F||2106-3|173 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0104|||S||AC000104|999-88-0104
+PV1|1|O|CLINIC^01^01^BAY_ORTHO_MEDICAL|||Wilson^Grace|||ORTH||||V010402|||Wilson^Grace|||||||||||||||||||||||||202607081000
+DG1|1||M54.50^Low back pain^ICD-10||202607081030|A
+RXE|^^^RX1002^Cyclobenzaprine|5 mg nightly as needed|PO
+OBR|1||OB10402|FOLLOW^Orthopedic follow-up|||202607081000
+OBX|1|NM|PAIN^Back Pain Score||5|/10|0-10|N|||F
+OBX|2|ST|MOB^Mobility Assessment||Improving|||N|||F
+NTE|1||Symptoms improving after home exercise program.
+AL1|1||IBU^Ibuprofen allergy

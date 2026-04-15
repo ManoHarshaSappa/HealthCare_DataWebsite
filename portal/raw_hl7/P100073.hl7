@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202601060915||ADT^A04|MSG07301|P|2.5
+EVN|A04|202601060915
+PID|1||P100073^^^CARDIOCARE_CLINIC^MR||Morrison^Huda^Elena||19921123|M||2106-3|142 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0073|||S||AC000073|999-88-0073
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V007301|||Carter^Emily|||||||||||||||||||||||||202601060845
+DG1|1||I10^Essential hypertension^ICD-10||202601060915|A
+RXE|^^^RX100^Lisinopril|10 mg daily|PO
+OBR|1||OB07301|BPCHK^Hypertension panel|||202601060845
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||152|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||111|mg/dL|70-110|N|||F
+NTE|1||Initial blood pressure management visit.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202604061000||ADT^A08|MSG07302|P|2.5
+EVN|A08|202604061000
+PID|1||P100073^^^CARDIOCARE_CLINIC^MR||Morrison^Huda^Elena||19921123|M||2106-3|142 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0073|||S||AC000073|999-88-0073
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V007302|||Carter^Emily|||||||||||||||||||||||||202604060930
+DG1|1||I10^Essential hypertension^ICD-10||202604061000|A
+RXE|^^^RX101^Lisinopril|20 mg daily|PO
+OBR|1||OB07302|BPCHK^Medication follow-up|||202604060930
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||144|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||107|mg/dL|70-110|N|||F
+NTE|1||Dose increased after incomplete blood pressure control.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202607100845||ADT^A08|MSG07303|P|2.5
+EVN|A08|202607100845
+PID|1||P100073^^^CARDIOCARE_CLINIC^MR||Morrison^Huda^Elena||19921123|M||2106-3|142 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0073|||S||AC000073|999-88-0073
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V007303|||Carter^Emily|||||||||||||||||||||||||202607100815
+DG1|1||I10^Essential hypertension^ICD-10||202607100845|A
+RXE|^^^RX102^Lisinopril/Hydrochlorothiazide|20/12.5 mg daily|PO
+OBR|1||OB07303|BPCHK^Chronic monitoring panel|||202607100815
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||133|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||102|mg/dL|70-110|N|||F
+NTE|1||Blood pressure improving on maintenance regimen.
+AL1|1||SHELL^Shellfish allergy

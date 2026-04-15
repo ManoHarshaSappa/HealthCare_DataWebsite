@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|RESPIRATORY_CARE_CLINIC|LAB_SYSTEM|METRO_PULMONARY_LAB|202503271020||ADT^A04|MSG01601|P|2.5
+EVN|A04|202503271020
+PID|1||P100016^^^RESPIRATORY_CARE_CLINIC^MR||Carter^Ethan^Michael||19840903|M||2106-3|410 River Bend^^Nashville^TN^37203^USA||(555)010-0016|||S||AC000016|999-88-0016
+PV1|1|O|CLINIC^01^01^RESPIRATORY_CARE_CLINIC|||Hughes^Sarah|||PULM||||V001601|||Hughes^Sarah|||||||||||||||||||||||||202503270950
+DG1|1||J45.20^Mild intermittent asthma^ICD-10||202503271020|A
+RXE|^^^RX1201^Albuterol inhaler|2 puffs every 6 hours as needed|INH
+OBR|1||OB01601|SPIRO^Pulmonary assessment|||202503270950
+OBX|1|NM|PEAK^Peak Flow||365|L/min|400-600|L|||F
+OBX|2|NM|O2SAT^Oxygen Saturation||94|%|95-100|N|||F
+NTE|1||Baseline asthma visit with mild symptoms.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|RESPIRATORY_CARE_HOSPITAL|LAB_SYSTEM|METRO_PULMONARY_LAB|202505261710||ADT^A01|MSG01602|P|2.5
+EVN|A01|202505261710
+PID|1||P100016^^^RESPIRATORY_CARE_HOSPITAL^MR||Carter^Ethan^Michael||19840903|M||2106-3|410 River Bend^^Nashville^TN^37203^USA||(555)010-0016|||S||AC000016|999-88-0016
+PV1|1|E|ER^05^01^RESPIRATORY_CARE_HOSPITAL|||Hughes^Sarah|||PULM||||V001602|||Hughes^Sarah|||||||||||||||||||||||||202505261640
+DG1|1||J45.901^Asthma with acute exacerbation^ICD-10||202505261710|A
+RXE|^^^RX1202^Prednisone|40 mg daily for 5 days|PO
+OBR|1||OB01602|ABG^Emergency respiratory panel|||202505261640
+OBX|1|NM|PEAK^Peak Flow||285|L/min|400-600|L|||F
+OBX|2|NM|O2SAT^Oxygen Saturation||89|%|95-100|L|||F
+NTE|1||Returned with worsening wheeze and shortness of breath.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|RESPIRATORY_CARE_CLINIC|LAB_SYSTEM|METRO_PULMONARY_LAB|202506150945||ADT^A08|MSG01603|P|2.5
+EVN|A08|202506150945
+PID|1||P100016^^^RESPIRATORY_CARE_CLINIC^MR||Carter^Ethan^Michael||19840903|M||2106-3|410 River Bend^^Nashville^TN^37203^USA||(555)010-0016|||S||AC000016|999-88-0016
+PV1|1|O|CLINIC^01^01^RESPIRATORY_CARE_CLINIC|||Hughes^Sarah|||PULM||||V001603|||Hughes^Sarah|||||||||||||||||||||||||202506150915
+DG1|1||J45.40^Moderate persistent asthma^ICD-10||202506150945|A
+RXE|^^^RX1203^Fluticasone inhaler|2 puffs twice daily|INH
+OBR|1||OB01603|FOLLOW^Pulmonary follow-up|||202506150915
+OBX|1|NM|PEAK^Peak Flow||412|L/min|400-600|N|||F
+OBX|2|NM|O2SAT^Oxygen Saturation||97|%|95-100|N|||F
+NTE|1||Maintenance therapy started after exacerbation.
+AL1|1||NKDA^No Known Drug Allergies

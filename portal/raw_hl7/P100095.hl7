@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202604260915||ADT^A04|MSG09501|P|2.5
+EVN|A04|202604260915
+PID|1||P100095^^^CARDIOCARE_CLINIC^MR||Bennett^Ava^Sofia||19850918|M||2106-3|164 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0095|||S||AC000095|999-88-0095
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V009501|||Carter^Emily|||||||||||||||||||||||||202604260845
+DG1|1||I10^Essential hypertension^ICD-10||202604260915|A
+RXE|^^^RX100^Lisinopril|10 mg daily|PO
+OBR|1||OB09501|BPCHK^Hypertension panel|||202604260845
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||150|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||113|mg/dL|70-110|N|||F
+NTE|1||Initial blood pressure management visit.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202607251000||ADT^A08|MSG09502|P|2.5
+EVN|A08|202607251000
+PID|1||P100095^^^CARDIOCARE_CLINIC^MR||Bennett^Ava^Sofia||19850918|M||2106-3|164 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0095|||S||AC000095|999-88-0095
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V009502|||Carter^Emily|||||||||||||||||||||||||202607250930
+DG1|1||I10^Essential hypertension^ICD-10||202607251000|A
+RXE|^^^RX101^Lisinopril|20 mg daily|PO
+OBR|1||OB09502|BPCHK^Medication follow-up|||202607250930
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||143|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||108|mg/dL|70-110|N|||F
+NTE|1||Dose increased after incomplete blood pressure control.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202610280845||ADT^A08|MSG09503|P|2.5
+EVN|A08|202610280845
+PID|1||P100095^^^CARDIOCARE_CLINIC^MR||Bennett^Ava^Sofia||19850918|M||2106-3|164 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0095|||S||AC000095|999-88-0095
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V009503|||Carter^Emily|||||||||||||||||||||||||202610280815
+DG1|1||I10^Essential hypertension^ICD-10||202610280845|A
+RXE|^^^RX102^Lisinopril/Hydrochlorothiazide|20/12.5 mg daily|PO
+OBR|1||OB09503|BPCHK^Chronic monitoring panel|||202610280815
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||134|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||103|mg/dL|70-110|N|||F
+NTE|1||Blood pressure improving on maintenance regimen.
+AL1|1||ASA^Aspirin allergy

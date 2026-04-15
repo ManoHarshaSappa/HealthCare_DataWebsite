@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|PACIFIC_CARE_HOSPITAL|LAB_SYSTEM|PACIFIC_IMAGING_CENTER|202608291400||ADT^A01|MSG12001|P|2.5
+EVN|A01|202608291400
+PID|1||P100120^^^PACIFIC_CARE_HOSPITAL^MR||Brooks^Zain^Rose||19811016|F||2106-3|189 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0120|||S||AC000120|999-88-0120
+PV1|1|E|ER^02^01^PACIFIC_CARE_HOSPITAL|||Lopez^Maria|||EMED||||V012001|||Lopez^Maria|||||||||||||||||||||||||202608291330
+DG1|1||S93.401A^Right ankle sprain^ICD-10||202608291400|A
+RXE|^^^RX401^Ibuprofen|400 mg every 8 hours|PO
+OBR|1||OB12001|ANKXR^Ankle imaging review|||202608291330
+OBX|1|NM|PAIN^Pain Score||7|/10|0-10|H|||F
+OBX|2|ST|SWELL^Ankle Swelling||Moderate|||A|||F
+NTE|1||Twisting injury during recreational activity.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|PACIFIC_SPORTS_MEDICINE|LAB_SYSTEM|PACIFIC_IMAGING_CENTER|202609100850||ADT^A08|MSG12002|P|2.5
+EVN|A08|202609100850
+PID|1||P100120^^^PACIFIC_SPORTS_MEDICINE^MR||Brooks^Zain^Rose||19811016|F||2106-3|189 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0120|||S||AC000120|999-88-0120
+PV1|1|O|CLINIC^01^01^PACIFIC_SPORTS_MEDICINE|||Lopez^Maria|||ORTH||||V012002|||Lopez^Maria|||||||||||||||||||||||||202609100820
+DG1|1||Z09^Follow-up after ankle sprain^ICD-10||202609100850|A
+RXE|^^^RX402^Naproxen|250 mg twice daily as needed|PO
+OBR|1||OB12002|REHAB^Mobility reassessment|||202609100820
+OBX|1|NM|PAIN^Pain Score||3|/10|0-10|N|||F
+OBX|2|ST|SWELL^Ankle Swelling||Mild|||N|||F
+NTE|1||Follow-up visit after bracing and rest.
+AL1|1||IBU^Ibuprofen allergy

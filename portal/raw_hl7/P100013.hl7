@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|COMMUNITY_WOUND_CLINIC|LAB_SYSTEM|REGIONAL_INFECTION_LAB|202503121345||ADT^A04|MSG01301|P|2.5
+EVN|A04|202503121345
+PID|1||P100013^^^COMMUNITY_WOUND_CLINIC^MR||Johnson^Sophia^Marie||19930718|F||2106-3|55 Linden Street^^Atlanta^GA^30303^USA||(555)010-0013|||S||AC000013|999-88-0013
+PV1|1|O|CLINIC^01^01^COMMUNITY_WOUND_CLINIC|||Jensen^Nora|||FM||||V001301|||Jensen^Nora|||||||||||||||||||||||||202503121315
+DG1|1||L03.116^Cellulitis of left lower limb^ICD-10||202503121345|A
+RXE|^^^RX1701^Cephalexin|500 mg four times daily|PO
+OBR|1||OB01301|CRP^Inflammatory marker review|||202503121315
+OBX|1|NM|CRP^C-Reactive Protein||42|mg/L|0-10|H|||F
+OBX|2|NM|PAIN^Pain Score||7|/10|0-10|H|||F
+NTE|1||Initial cellulitis diagnosis with erythema and swelling.
+AL1|1||PEN^Penicillin
+
+MSH|^~\&|EHR_SYSTEM|COMMUNITY_WOUND_CLINIC|LAB_SYSTEM|REGIONAL_INFECTION_LAB|202503220920||ADT^A08|MSG01302|P|2.5
+EVN|A08|202503220920
+PID|1||P100013^^^COMMUNITY_WOUND_CLINIC^MR||Johnson^Sophia^Marie||19930718|F||2106-3|55 Linden Street^^Atlanta^GA^30303^USA||(555)010-0013|||S||AC000013|999-88-0013
+PV1|1|O|CLINIC^01^01^COMMUNITY_WOUND_CLINIC|||Jensen^Nora|||FM||||V001302|||Jensen^Nora|||||||||||||||||||||||||202503220850
+DG1|1||Z09^Follow-up after cellulitis treatment^ICD-10||202503220920|A
+RXE|^^^RX1702^Cephalexin|Complete current course|PO
+OBR|1||OB01302|CRP^Repeat inflammatory marker review|||202503220850
+OBX|1|NM|CRP^C-Reactive Protein||9|mg/L|0-10|N|||F
+OBX|2|NM|PAIN^Pain Score||3|/10|0-10|N|||F
+NTE|1||Marked improvement after antibiotic therapy.
+AL1|1||PEN^Penicillin

@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|DIGESTIVE_HEALTH_CLINIC|LAB_SYSTEM|CENTRAL_GI_LAB|202502200840||ADT^A04|MSG00901|P|2.5
+EVN|A04|202502200840
+PID|1||P100009^^^DIGESTIVE_HEALTH_CLINIC^MR||Rodriguez^Daniel^Jose||19900211|M||2106-3|81 Sunset Blvd^^Miami^FL^33101^USA||(555)010-0009|||S||AC000009|999-88-0009
+PV1|1|O|CLINIC^01^01^DIGESTIVE_HEALTH_CLINIC|||Garcia^Elena|||GAST||||V000901|||Garcia^Elena|||||||||||||||||||||||||202502200810
+DG1|1||K21.9^Gastro-esophageal reflux disease^ICD-10||202502200840|A
+RXE|^^^RX901^Omeprazole|20 mg daily|PO
+OBR|1||OB00901|GIWK^Digestive symptoms workup|||202502200810
+OBX|1|NM|REFLUX^Reflux Symptom Score||6|/10|0-10|H|||F
+OBX|2|NM|ALT^Alanine Aminotransferase||32|U/L|7-56|N|||F
+NTE|1||Routine reflux evaluation.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|DIGESTIVE_HEALTH_CLINIC|LAB_SYSTEM|CENTRAL_GI_LAB|202505060900||ADT^A08|MSG00902|P|2.5
+EVN|A08|202505060900
+PID|1||P100009^^^DIGESTIVE_HEALTH_CLINIC^MR||Rodriguez^Daniel^Jose||19900211|M||2106-3|81 Sunset Blvd^^Miami^FL^33101^USA||(555)010-0009|||S||AC000009|999-88-0009
+PV1|1|O|CLINIC^01^01^DIGESTIVE_HEALTH_CLINIC|||Garcia^Elena|||GAST||||V000902|||Garcia^Elena|||||||||||||||||||||||||202505060830
+DG1|1||K21.9^Gastro-esophageal reflux disease^ICD-10||202505060900|A
+RXE|^^^RX902^Omeprazole|20 mg daily|PO
+OBR|1||OB00902|FOLLOW^GERD follow-up|||202505060830
+OBX|1|NM|REFLUX^Reflux Symptom Score||4|/10|0-10|N|||F
+OBX|2|NM|ALT^Alanine Aminotransferase||31|U/L|7-56|N|||F
+NTE|1||Symptoms improved and stable.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|DIGESTIVE_HEALTH_CLINIC|LAB_SYSTEM|CENTRAL_GI_LAB|202507300910||ADT^A08|MSG00903|P|2.5
+EVN|A08|202507300910
+PID|1||P100009^^^DIGESTIVE_HEALTH_CLINIC^MR||Rodriguez^Daniel^Jose||19900211|M||2106-3|81 Sunset Blvd^^Miami^FL^33101^USA||(555)010-0009|||S||AC000009|999-88-0009
+PV1|1|O|CLINIC^01^01^DIGESTIVE_HEALTH_CLINIC|||Garcia^Elena|||GAST||||V000903|||Garcia^Elena|||||||||||||||||||||||||202507300840
+DG1|1||K21.9^Gastro-esophageal reflux disease^ICD-10||202507300910|A
+RXE|^^^RX903^Omeprazole|20 mg daily|PO
+OBR|1||OB00903|FOLLOW^Maintenance review|||202507300840
+OBX|1|NM|REFLUX^Reflux Symptom Score||4|/10|0-10|N|||F
+OBX|2|NM|ALT^Alanine Aminotransferase||30|U/L|7-56|N|||F
+NTE|1||Stable repeat visit for chronic symptoms.
+AL1|1||NKFA^No Known Food Allergies

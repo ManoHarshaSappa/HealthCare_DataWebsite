@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|BAY_ORTHO_MEDICAL|LAB_SYSTEM|BAY_IMAGING_LAB|202502251100||ADT^A04|MSG01001|P|2.5
+EVN|A04|202502251100
+PID|1||P100010^^^BAY_ORTHO_MEDICAL^MR||Yamamoto^Hiroshi^Takumi||19830227|M||2106-3|350 Sakura Lane^^San Jose^CA^95112^USA||(555)010-0010|||S||AC000010|999-88-0010
+PV1|1|O|CLINIC^01^01^BAY_ORTHO_MEDICAL|||Wilson^Grace|||ORTH||||V001001|||Wilson^Grace|||||||||||||||||||||||||202502251030
+DG1|1||M54.50^Low back pain^ICD-10||202502251100|A
+RXE|^^^RX1001^Naproxen|500 mg twice daily|PO
+OBR|1||OB01001|SPXR^Spine evaluation|||202502251030
+OBX|1|NM|PAIN^Back Pain Score||7|/10|0-10|H|||F
+OBX|2|ST|MOB^Mobility Assessment||Reduced|||A|||F
+NTE|1||Mechanical back pain after lifting injury.
+AL1|1||CODEINE^Codeine allergy
+
+MSH|^~\&|EHR_SYSTEM|BAY_ORTHO_MEDICAL|LAB_SYSTEM|BAY_IMAGING_LAB|202503251030||ADT^A08|MSG01002|P|2.5
+EVN|A08|202503251030
+PID|1||P100010^^^BAY_ORTHO_MEDICAL^MR||Yamamoto^Hiroshi^Takumi||19830227|M||2106-3|350 Sakura Lane^^San Jose^CA^95112^USA||(555)010-0010|||S||AC000010|999-88-0010
+PV1|1|O|CLINIC^01^01^BAY_ORTHO_MEDICAL|||Wilson^Grace|||ORTH||||V001002|||Wilson^Grace|||||||||||||||||||||||||202503251000
+DG1|1||M54.50^Low back pain^ICD-10||202503251030|A
+RXE|^^^RX1002^Cyclobenzaprine|5 mg nightly as needed|PO
+OBR|1||OB01002|FOLLOW^Orthopedic follow-up|||202503251000
+OBX|1|NM|PAIN^Back Pain Score||4|/10|0-10|N|||F
+OBX|2|ST|MOB^Mobility Assessment||Improving|||N|||F
+NTE|1||Symptoms improving after home exercise program.
+AL1|1||CODEINE^Codeine allergy

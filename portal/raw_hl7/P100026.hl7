@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202505160915||ADT^A04|MSG02601|P|2.5
+EVN|A04|202505160915
+PID|1||P100026^^^CARDIOCARE_CLINIC^MR||Siddiqui^Abdul^Rahman||19770203|M||2106-3|212 Walnut Street^^Dallas^TX^75201^USA||(555)010-0026|||S||AC000026|999-88-0026
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V002601|||Carter^Emily|||||||||||||||||||||||||202505160845
+DG1|1||I10^Essential hypertension^ICD-10||202505160915|A
+RXE|^^^RX100^Lisinopril|10 mg daily|PO
+OBR|1||OB02601|BPCHK^Hypertension panel|||202505160845
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||150|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||113|mg/dL|70-110|N|||F
+NTE|1||Initial blood pressure management visit.
+AL1|1||PEN^Penicillin
+
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202508141000||ADT^A08|MSG02602|P|2.5
+EVN|A08|202508141000
+PID|1||P100026^^^CARDIOCARE_CLINIC^MR||Siddiqui^Abdul^Rahman||19770203|M||2106-3|212 Walnut Street^^Dallas^TX^75201^USA||(555)010-0026|||S||AC000026|999-88-0026
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V002602|||Carter^Emily|||||||||||||||||||||||||202508140930
+DG1|1||I10^Essential hypertension^ICD-10||202508141000|A
+RXE|^^^RX101^Lisinopril|20 mg daily|PO
+OBR|1||OB02602|BPCHK^Medication follow-up|||202508140930
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||143|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||108|mg/dL|70-110|N|||F
+NTE|1||Dose increased after incomplete blood pressure control.
+AL1|1||PEN^Penicillin
+
+MSH|^~\&|EHR_SYSTEM|CARDIOCARE_CLINIC|LAB_SYSTEM|METRO_LAB|202511170845||ADT^A08|MSG02603|P|2.5
+EVN|A08|202511170845
+PID|1||P100026^^^CARDIOCARE_CLINIC^MR||Siddiqui^Abdul^Rahman||19770203|M||2106-3|212 Walnut Street^^Dallas^TX^75201^USA||(555)010-0026|||S||AC000026|999-88-0026
+PV1|1|O|CLINIC^01^01^CARDIOCARE_CLINIC|||Carter^Emily|||CARD||||V002603|||Carter^Emily|||||||||||||||||||||||||202511170815
+DG1|1||I10^Essential hypertension^ICD-10||202511170845|A
+RXE|^^^RX102^Lisinopril/Hydrochlorothiazide|20/12.5 mg daily|PO
+OBR|1||OB02603|BPCHK^Chronic monitoring panel|||202511170815
+OBX|1|NM|BP_SYS^Blood Pressure Systolic||134|mmHg|90-120|H|||F
+OBX|2|NM|GLU^Glucose||103|mg/dL|70-110|N|||F
+NTE|1||Blood pressure improving on maintenance regimen.
+AL1|1||PEN^Penicillin

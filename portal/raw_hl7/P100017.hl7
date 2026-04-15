@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|ENDOCRINE_WELLNESS_CENTER|LAB_SYSTEM|HORMONE_REFERENCE_LAB|202504010830||ADT^A04|MSG01701|P|2.5
+EVN|A04|202504010830
+PID|1||P100017^^^ENDOCRINE_WELLNESS_CENTER^MR||Fernandez^Isabella^Rose||19920429|F||2106-3|77 Garden View^^Tampa^FL^33602^USA||(555)010-0017|||S||AC000017|999-88-0017
+PV1|1|O|CLINIC^01^01^ENDOCRINE_WELLNESS_CENTER|||Nguyen^Linda|||ENDO||||V001701|||Nguyen^Linda|||||||||||||||||||||||||202504010800
+DG1|1||E03.9^Hypothyroidism, unspecified^ICD-10||202504010830|A
+RXE|^^^RX1601^Levothyroxine|50 mcg daily|PO
+OBR|1||OB01701|TSH^Thyroid function panel|||202504010800
+OBX|1|NM|TSH^Thyroid Stimulating Hormone||6.4|uIU/mL|0.4-4.0|H|||F
+OBX|2|NM|FREE_T4^Free T4||1.0|ng/dL|0.8-1.8|N|||F
+NTE|1||Initial thyroid maintenance visit.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|ENDOCRINE_WELLNESS_CENTER|LAB_SYSTEM|HORMONE_REFERENCE_LAB|202506150850||ADT^A08|MSG01702|P|2.5
+EVN|A08|202506150850
+PID|1||P100017^^^ENDOCRINE_WELLNESS_CENTER^MR||Fernandez^Isabella^Rose||19920429|F||2106-3|77 Garden View^^Tampa^FL^33602^USA||(555)010-0017|||S||AC000017|999-88-0017
+PV1|1|O|CLINIC^01^01^ENDOCRINE_WELLNESS_CENTER|||Nguyen^Linda|||ENDO||||V001702|||Nguyen^Linda|||||||||||||||||||||||||202506150820
+DG1|1||E03.9^Hypothyroidism, unspecified^ICD-10||202506150850|A
+RXE|^^^RX1602^Levothyroxine|75 mcg daily|PO
+OBR|1||OB01702|TSH^Medication adjustment follow-up|||202506150820
+OBX|1|NM|TSH^Thyroid Stimulating Hormone||3.6|uIU/mL|0.4-4.0|N|||F
+OBX|2|NM|FREE_T4^Free T4||1.0|ng/dL|0.8-1.8|N|||F
+NTE|1||Dose adjusted after elevated TSH.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|ENDOCRINE_WELLNESS_CENTER|LAB_SYSTEM|HORMONE_REFERENCE_LAB|202509130905||ADT^A08|MSG01703|P|2.5
+EVN|A08|202509130905
+PID|1||P100017^^^ENDOCRINE_WELLNESS_CENTER^MR||Fernandez^Isabella^Rose||19920429|F||2106-3|77 Garden View^^Tampa^FL^33602^USA||(555)010-0017|||S||AC000017|999-88-0017
+PV1|1|O|CLINIC^01^01^ENDOCRINE_WELLNESS_CENTER|||Nguyen^Linda|||ENDO||||V001703|||Nguyen^Linda|||||||||||||||||||||||||202509130835
+DG1|1||E03.9^Hypothyroidism, unspecified^ICD-10||202509130905|A
+RXE|^^^RX1603^Levothyroxine|75 mcg daily|PO
+OBR|1||OB01703|TSH^Chronic thyroid surveillance|||202509130835
+OBX|1|NM|TSH^Thyroid Stimulating Hormone||2.9|uIU/mL|0.4-4.0|N|||F
+OBX|2|NM|FREE_T4^Free T4||1.1|ng/dL|0.8-1.8|N|||F
+NTE|1||Stable repeat monitoring visit.
+AL1|1||ASA^Aspirin allergy

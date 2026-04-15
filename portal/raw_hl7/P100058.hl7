@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202510231040||ADT^A04|MSG05801|P|2.5
+EVN|A04|202510231040
+PID|1||P100058^^^SEATTLE_NEURO_CLINIC^MR||Siddiqui^Ivy^Marie||19770808|F||2106-3|127 Willow Bend Drive^^Boulder^CO^80302^USA||(555)010-0058|||S||AC000058|999-88-0058
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V005801|||Brown^Natalie|||||||||||||||||||||||||202510231010
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202510231040|A
+RXE|^^^RX801^Sumatriptan|50 mg as needed|PO
+OBR|1||OB05801|NEURO^Headache assessment|||202510231010
+OBX|1|NM|PAIN^Headache Severity||9|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||5|hours|6-8|L|||F
+NTE|1||Migraine symptoms interfering with sleep.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202512020930||ADT^A08|MSG05802|P|2.5
+EVN|A08|202512020930
+PID|1||P100058^^^SEATTLE_NEURO_CLINIC^MR||Siddiqui^Ivy^Marie||19770808|F||2106-3|127 Willow Bend Drive^^Boulder^CO^80302^USA||(555)010-0058|||S||AC000058|999-88-0058
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V005802|||Brown^Natalie|||||||||||||||||||||||||202512020900
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202512020930|A
+RXE|^^^RX802^Sumatriptan + Topiramate|50 mg PRN + 25 mg nightly|PO
+OBR|1||OB05802|FOLLOW^Medication review|||202512020900
+OBX|1|NM|PAIN^Headache Severity||6|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Preventive medication added after partial response.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202601310855||ADT^A08|MSG05803|P|2.5
+EVN|A08|202601310855
+PID|1||P100058^^^SEATTLE_NEURO_CLINIC^MR||Siddiqui^Ivy^Marie||19770808|F||2106-3|127 Willow Bend Drive^^Boulder^CO^80302^USA||(555)010-0058|||S||AC000058|999-88-0058
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V005803|||Brown^Natalie|||||||||||||||||||||||||202601310825
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202601310855|A
+RXE|^^^RX803^Topiramate|50 mg nightly|PO
+OBR|1||OB05803|FOLLOW^Neurology follow-up|||202601310825
+OBX|1|NM|PAIN^Headache Severity||3|/10|0-10|N|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Headache frequency reduced on preventive regimen.
+AL1|1||NKFA^No Known Food Allergies

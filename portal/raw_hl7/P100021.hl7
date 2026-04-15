@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202504211040||ADT^A04|MSG02101|P|2.5
+EVN|A04|202504211040
+PID|1||P100021^^^SEATTLE_NEURO_CLINIC^MR||Thompson^Emma^Louise||19961002|F||2106-3|33 Pine Brook^^Charlotte^NC^28202^USA||(555)010-0021|||S||AC000021|999-88-0021
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V002101|||Brown^Natalie|||||||||||||||||||||||||202504211010
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202504211040|A
+RXE|^^^RX801^Sumatriptan|50 mg as needed|PO
+OBR|1||OB02101|NEURO^Headache assessment|||202504211010
+OBX|1|NM|PAIN^Headache Severity||8|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||4|hours|6-8|L|||F
+NTE|1||Migraine symptoms interfering with sleep.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202505310930||ADT^A08|MSG02102|P|2.5
+EVN|A08|202505310930
+PID|1||P100021^^^SEATTLE_NEURO_CLINIC^MR||Thompson^Emma^Louise||19961002|F||2106-3|33 Pine Brook^^Charlotte^NC^28202^USA||(555)010-0021|||S||AC000021|999-88-0021
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V002102|||Brown^Natalie|||||||||||||||||||||||||202505310900
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202505310930|A
+RXE|^^^RX802^Sumatriptan + Topiramate|50 mg PRN + 25 mg nightly|PO
+OBR|1||OB02102|FOLLOW^Medication review|||202505310900
+OBX|1|NM|PAIN^Headache Severity||5|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||6|hours|6-8|N|||F
+NTE|1||Preventive medication added after partial response.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202507300855||ADT^A08|MSG02103|P|2.5
+EVN|A08|202507300855
+PID|1||P100021^^^SEATTLE_NEURO_CLINIC^MR||Thompson^Emma^Louise||19961002|F||2106-3|33 Pine Brook^^Charlotte^NC^28202^USA||(555)010-0021|||S||AC000021|999-88-0021
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V002103|||Brown^Natalie|||||||||||||||||||||||||202507300825
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202507300855|A
+RXE|^^^RX803^Topiramate|50 mg nightly|PO
+OBR|1||OB02103|FOLLOW^Neurology follow-up|||202507300825
+OBX|1|NM|PAIN^Headache Severity||2|/10|0-10|N|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Headache frequency reduced on preventive regimen.
+AL1|1||IBU^Ibuprofen allergy

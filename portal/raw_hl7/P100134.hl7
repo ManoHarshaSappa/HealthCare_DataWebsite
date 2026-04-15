@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|COMMUNITY_WOUND_CLINIC|LAB_SYSTEM|REGIONAL_INFECTION_LAB|202611071345||ADT^A04|MSG13401|P|2.5
+EVN|A04|202611071345
+PID|1||P100134^^^COMMUNITY_WOUND_CLINIC^MR||Nakamura^Rowan^Amir||19951203|F||2106-3|203 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0134|||S||AC000134|999-88-0134
+PV1|1|O|CLINIC^01^01^COMMUNITY_WOUND_CLINIC|||Jensen^Nora|||FM||||V013401|||Jensen^Nora|||||||||||||||||||||||||202611071315
+DG1|1||L03.116^Cellulitis of left lower limb^ICD-10||202611071345|A
+RXE|^^^RX1701^Cephalexin|500 mg four times daily|PO
+OBR|1||OB13401|CRP^Inflammatory marker review|||202611071315
+OBX|1|NM|CRP^C-Reactive Protein||46|mg/L|0-10|H|||F
+OBX|2|NM|PAIN^Pain Score||8|/10|0-10|H|||F
+NTE|1||Initial cellulitis diagnosis with erythema and swelling.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|COMMUNITY_WOUND_CLINIC|LAB_SYSTEM|REGIONAL_INFECTION_LAB|202611170920||ADT^A08|MSG13402|P|2.5
+EVN|A08|202611170920
+PID|1||P100134^^^COMMUNITY_WOUND_CLINIC^MR||Nakamura^Rowan^Amir||19951203|F||2106-3|203 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0134|||S||AC000134|999-88-0134
+PV1|1|O|CLINIC^01^01^COMMUNITY_WOUND_CLINIC|||Jensen^Nora|||FM||||V013402|||Jensen^Nora|||||||||||||||||||||||||202611170850
+DG1|1||Z09^Follow-up after cellulitis treatment^ICD-10||202611170920|A
+RXE|^^^RX1702^Cephalexin|Complete current course|PO
+OBR|1||OB13402|CRP^Repeat inflammatory marker review|||202611170850
+OBX|1|NM|CRP^C-Reactive Protein||10|mg/L|0-10|N|||F
+OBX|2|NM|PAIN^Pain Score||4|/10|0-10|N|||F
+NTE|1||Marked improvement after antibiotic therapy.
+AL1|1||SULFA^Sulfonamide allergy

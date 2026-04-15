@@ -1,0 +1,47 @@
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202512271740||ADT^A01|MSG07101|P|2.5
+EVN|A01|202512271740
+PID|1||P100071^^^HEART_FAILURE_INSTITUTE^MR||Turner^Elise^James||19900921|M||2106-3|140 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0071|||S||AC000071|999-88-0071
+PV1|1|E|ER^07^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V007101|||Reed^Thomas|||||||||||||||||||||||||202512271710
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202512271740|A
+RXE|^^^RX2001^Furosemide|20 mg daily|PO
+OBR|1||OB07101|BNP^Heart failure biomarker panel|||202512271710
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||1020|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||216|lb||A|||F
+NTE|1||Emergency presentation with fluid overload.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202512290900||ADT^A01|MSG07102|P|2.5
+EVN|A01|202512290900
+PID|1||P100071^^^HEART_FAILURE_INSTITUTE^MR||Turner^Elise^James||19900921|M||2106-3|140 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0071|||S||AC000071|999-88-0071
+PV1|1|I|CARD^05^11^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V007102|||Reed^Thomas|||||||||||||||||||||||||202512290830
+DG1|1||I50.9^Acute decompensated heart failure^ICD-10||202512290900|A
+RXE|^^^RX2002^Furosemide|40 mg daily|PO
+OBR|1||OB07102|BNP^Inpatient heart failure management|||202512290830
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||840|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||213|lb||A|||F
+NTE|1||Admitted for diuresis and medication optimization.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202601201015||ADT^A08|MSG07103|P|2.5
+EVN|A08|202601201015
+PID|1||P100071^^^HEART_FAILURE_INSTITUTE^MR||Turner^Elise^James||19900921|M||2106-3|140 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0071|||S||AC000071|999-88-0071
+PV1|1|O|CLINIC^01^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V007103|||Reed^Thomas|||||||||||||||||||||||||202601200945
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202601201015|A
+RXE|^^^RX2003^Furosemide + Carvedilol|40 mg daily + 3.125 mg BID|PO
+OBR|1||OB07103|BNP^Cardiology follow-up|||202601200945
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||590|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||207|lb||A|||F
+NTE|1||Early outpatient follow-up after discharge.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|HEART_FAILURE_INSTITUTE|LAB_SYSTEM|CARDIO_BIOMARKER_LAB|202603270925||ADT^A08|MSG07104|P|2.5
+EVN|A08|202603270925
+PID|1||P100071^^^HEART_FAILURE_INSTITUTE^MR||Turner^Elise^James||19900921|M||2106-3|140 Maple Crest Drive^^Mesa^AZ^85201^USA||(555)010-0071|||S||AC000071|999-88-0071
+PV1|1|O|CLINIC^01^01^HEART_FAILURE_INSTITUTE|||Reed^Thomas|||CARD||||V007104|||Reed^Thomas|||||||||||||||||||||||||202603270855
+DG1|1||I50.9^Heart failure, unspecified^ICD-10||202603270925|A
+RXE|^^^RX2004^Furosemide + Carvedilol|40 mg daily + 6.25 mg BID|PO
+OBR|1||OB07104|BNP^Longitudinal heart failure monitoring|||202603270855
+OBX|1|NM|BNP^B-Type Natriuretic Peptide||450|pg/mL|<100|H|||F
+OBX|2|NM|WT^Weight||203|lb||A|||F
+NTE|1||Stable repeat visit with continued medication titration.
+AL1|1||ASA^Aspirin allergy

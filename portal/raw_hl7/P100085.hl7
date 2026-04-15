@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|RESPIRATORY_CARE_CLINIC|LAB_SYSTEM|METRO_PULMONARY_LAB|202603071020||ADT^A04|MSG08501|P|2.5
+EVN|A04|202603071020
+PID|1||P100085^^^RESPIRATORY_CARE_CLINIC^MR||Salazar^Kian^Noor||19751108|M||2106-3|154 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0085|||S||AC000085|999-88-0085
+PV1|1|O|CLINIC^01^01^RESPIRATORY_CARE_CLINIC|||Hughes^Sarah|||PULM||||V008501|||Hughes^Sarah|||||||||||||||||||||||||202603070950
+DG1|1||J45.20^Mild intermittent asthma^ICD-10||202603071020|A
+RXE|^^^RX1201^Albuterol inhaler|2 puffs every 6 hours as needed|INH
+OBR|1||OB08501|SPIRO^Pulmonary assessment|||202603070950
+OBX|1|NM|PEAK^Peak Flow||365|L/min|400-600|L|||F
+OBX|2|NM|O2SAT^Oxygen Saturation||94|%|95-100|N|||F
+NTE|1||Baseline asthma visit with mild symptoms.
+AL1|1||LATEX^Latex allergy
+
+MSH|^~\&|EHR_SYSTEM|RESPIRATORY_CARE_HOSPITAL|LAB_SYSTEM|METRO_PULMONARY_LAB|202605061710||ADT^A01|MSG08502|P|2.5
+EVN|A01|202605061710
+PID|1||P100085^^^RESPIRATORY_CARE_HOSPITAL^MR||Salazar^Kian^Noor||19751108|M||2106-3|154 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0085|||S||AC000085|999-88-0085
+PV1|1|E|ER^05^01^RESPIRATORY_CARE_HOSPITAL|||Hughes^Sarah|||PULM||||V008502|||Hughes^Sarah|||||||||||||||||||||||||202605061640
+DG1|1||J45.901^Asthma with acute exacerbation^ICD-10||202605061710|A
+RXE|^^^RX1202^Prednisone|40 mg daily for 5 days|PO
+OBR|1||OB08502|ABG^Emergency respiratory panel|||202605061640
+OBX|1|NM|PEAK^Peak Flow||285|L/min|400-600|L|||F
+OBX|2|NM|O2SAT^Oxygen Saturation||89|%|95-100|L|||F
+NTE|1||Returned with worsening wheeze and shortness of breath.
+AL1|1||LATEX^Latex allergy
+
+MSH|^~\&|EHR_SYSTEM|RESPIRATORY_CARE_CLINIC|LAB_SYSTEM|METRO_PULMONARY_LAB|202605260945||ADT^A08|MSG08503|P|2.5
+EVN|A08|202605260945
+PID|1||P100085^^^RESPIRATORY_CARE_CLINIC^MR||Salazar^Kian^Noor||19751108|M||2106-3|154 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0085|||S||AC000085|999-88-0085
+PV1|1|O|CLINIC^01^01^RESPIRATORY_CARE_CLINIC|||Hughes^Sarah|||PULM||||V008503|||Hughes^Sarah|||||||||||||||||||||||||202605260915
+DG1|1||J45.40^Moderate persistent asthma^ICD-10||202605260945|A
+RXE|^^^RX1203^Fluticasone inhaler|2 puffs twice daily|INH
+OBR|1||OB08503|FOLLOW^Pulmonary follow-up|||202605260915
+OBX|1|NM|PEAK^Peak Flow||412|L/min|400-600|N|||F
+OBX|2|NM|O2SAT^Oxygen Saturation||97|%|95-100|N|||F
+NTE|1||Maintenance therapy started after exacerbation.
+AL1|1||LATEX^Latex allergy

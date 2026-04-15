@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|PHOENIX_ENDOCRINE_CENTER|LAB_SYSTEM|PHOENIX_ENDOCRINE_LAB|202612220940||ADT^A04|MSG14301|P|2.5
+EVN|A04|202612220940
+PID|1||P100143^^^PHOENIX_ENDOCRINE_CENTER^MR||Patel^Elias^Daniel||19750912|M||2106-3|212 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0143|||S||AC000143|999-88-0143
+PV1|1|O|CLINIC^01^01^PHOENIX_ENDOCRINE_CENTER|||Nguyen^Linda|||ENDO||||V014301|||Nguyen^Linda|||||||||||||||||||||||||202612220910
+DG1|1||E11.9^Type 2 diabetes mellitus^ICD-10||202612220940|A
+RXE|^^^RX501^Metformin|500 mg twice daily|PO
+OBR|1||OB14301|A1C^Glycemic control panel|||202612220910
+OBX|1|NM|A1C^Hemoglobin A1c||8.8|%|4.0-5.6|H|||F
+OBX|2|NM|GLUFAST^Fasting Glucose||184|mg/dL|70-99|H|||F
+NTE|1||New diabetes follow-up with elevated A1c.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|PHOENIX_ENDOCRINE_CENTER|LAB_SYSTEM|PHOENIX_ENDOCRINE_LAB|202703271010||ADT^A08|MSG14302|P|2.5
+EVN|A08|202703271010
+PID|1||P100143^^^PHOENIX_ENDOCRINE_CENTER^MR||Patel^Elias^Daniel||19750912|M||2106-3|212 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0143|||S||AC000143|999-88-0143
+PV1|1|O|CLINIC^01^01^PHOENIX_ENDOCRINE_CENTER|||Nguyen^Linda|||ENDO||||V014302|||Nguyen^Linda|||||||||||||||||||||||||202703270940
+DG1|1||E11.9^Type 2 diabetes mellitus^ICD-10||202703271010|A
+RXE|^^^RX502^Metformin|1000 mg twice daily|PO
+OBR|1||OB14302|A1C^Diabetes medication review|||202703270940
+OBX|1|NM|A1C^Hemoglobin A1c||8.2|%|4.0-5.6|H|||F
+OBX|2|NM|GLUFAST^Fasting Glucose||164|mg/dL|70-99|H|||F
+NTE|1||Metformin increased due to persistent hyperglycemia.
+AL1|1||ASA^Aspirin allergy
+
+MSH|^~\&|EHR_SYSTEM|PHOENIX_ENDOCRINE_CENTER|LAB_SYSTEM|PHOENIX_ENDOCRINE_LAB|202706300915||ADT^A08|MSG14303|P|2.5
+EVN|A08|202706300915
+PID|1||P100143^^^PHOENIX_ENDOCRINE_CENTER^MR||Patel^Elias^Daniel||19750912|M||2106-3|212 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0143|||S||AC000143|999-88-0143
+PV1|1|O|CLINIC^01^01^PHOENIX_ENDOCRINE_CENTER|||Nguyen^Linda|||ENDO||||V014303|||Nguyen^Linda|||||||||||||||||||||||||202706300845
+DG1|1||E11.9^Type 2 diabetes mellitus^ICD-10||202706300915|A
+RXE|^^^RX503^Metformin + Glipizide|1000 mg BID + 5 mg daily|PO
+OBR|1||OB14303|A1C^Chronic diabetes monitoring|||202706300845
+OBX|1|NM|A1C^Hemoglobin A1c||7.3|%|4.0-5.6|H|||F
+OBX|2|NM|GLUFAST^Fasting Glucose||139|mg/dL|70-99|H|||F
+NTE|1||Added second agent for chronic disease control.
+AL1|1||ASA^Aspirin allergy

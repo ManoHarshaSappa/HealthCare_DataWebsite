@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|WOMEN'S_HEALTH_CLINIC|LAB_SYSTEM|REGIONAL_MICRO_LAB|202607101130||ADT^A04|MSG11001|P|2.5
+EVN|A04|202607101130
+PID|1||P100110^^^WOMEN'S_HEALTH_CLINIC^MR||Farah^Theo^Rae||19711206|F||2106-3|179 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0110|||S||AC000110|999-88-0110
+PV1|1|O|CLINIC^01^01^WOMEN'S_HEALTH_CLINIC|||Ng^Julia|||FM||||V011001|||Ng^Julia|||||||||||||||||||||||||202607101100
+DG1|1||N39.0^Urinary tract infection^ICD-10||202607101130|A
+RXE|^^^RX1501^Nitrofurantoin|100 mg twice daily for 5 days|PO
+OBR|1||OB11001|URINE^Urinalysis|||202607101100
+OBX|1|NM|UAWBC^Urine WBC||26|/HPF|0-5|H|||F
+OBX|2|ST|NITRITE^Nitrite||Positive|||A|||F
+NTE|1||Initial urinary symptoms treated outpatient.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|REGIONAL_MEDICAL_CENTER|LAB_SYSTEM|REGIONAL_MICRO_LAB|202607171720||ADT^A01|MSG11002|P|2.5
+EVN|A01|202607171720
+PID|1||P100110^^^REGIONAL_MEDICAL_CENTER^MR||Farah^Theo^Rae||19711206|F||2106-3|179 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0110|||S||AC000110|999-88-0110
+PV1|1|E|ER^03^02^REGIONAL_MEDICAL_CENTER|||Ng^Julia|||FM||||V011002|||Ng^Julia|||||||||||||||||||||||||202607171650
+DG1|1||N10^Acute pyelonephritis^ICD-10||202607171720|A
+RXE|^^^RX1502^Ciprofloxacin|500 mg twice daily for 7 days|PO
+OBR|1||OB11002|CBC^Infection evaluation|||202607171650
+OBX|1|NM|TEMP^Body Temperature||102.2|F|97-99|H|||F
+OBX|2|NM|UAWBC^Urine WBC||39|/HPF|0-5|H|||F
+NTE|1||Returned with flank pain and worsening infection.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|WOMEN'S_HEALTH_CLINIC|LAB_SYSTEM|REGIONAL_MICRO_LAB|202607310910||ADT^A08|MSG11003|P|2.5
+EVN|A08|202607310910
+PID|1||P100110^^^WOMEN'S_HEALTH_CLINIC^MR||Farah^Theo^Rae||19711206|F||2106-3|179 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0110|||S||AC000110|999-88-0110
+PV1|1|O|CLINIC^01^01^WOMEN'S_HEALTH_CLINIC|||Ng^Julia|||FM||||V011003|||Ng^Julia|||||||||||||||||||||||||202607310840
+DG1|1||Z09^Follow-up after urinary infection treatment^ICD-10||202607310910|A
+RXE|^^^RX1503^Cranberry supplement|Once daily|PO
+OBR|1||OB11003|URINE^Repeat urinalysis|||202607310840
+OBX|1|NM|TEMP^Body Temperature||98.7|F|97-99|N|||F
+OBX|2|NM|UAWBC^Urine WBC||5|/HPF|0-5|N|||F
+NTE|1||Resolved symptoms after antibiotic change.
+AL1|1||SULFA^Sulfonamide allergy

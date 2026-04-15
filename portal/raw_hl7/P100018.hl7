@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|REGIONAL_MEDICAL_CENTER|LAB_SYSTEM|UROLOGY_IMAGING_LAB|202504061645||ADT^A01|MSG01801|P|2.5
+EVN|A01|202504061645
+PID|1||P100018^^^REGIONAL_MEDICAL_CENTER^MR||Silva^Lucas^Andre||19870322|M||2106-3|15 Quartz Way^^Denver^CO^80202^USA||(555)010-0018|||S||AC000018|999-88-0018
+PV1|1|E|ER^08^01^REGIONAL_MEDICAL_CENTER|||Bell^Marcus|||UROL||||V001801|||Bell^Marcus|||||||||||||||||||||||||202504061615
+DG1|1||N20.0^Kidney stone^ICD-10||202504061645|A
+RXE|^^^RX2101^Tamsulosin|0.4 mg daily|PO
+OBR|1||OB01801|CTABD^Renal colic imaging review|||202504061615
+OBX|1|NM|PAIN^Pain Score||9|/10|0-10|H|||F
+OBX|2|ST|HEMAT^Hematuria||Present|||A|||F
+NTE|1||Emergency renal colic presentation.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|REGIONAL_UROLOGY_CLINIC|LAB_SYSTEM|UROLOGY_IMAGING_LAB|202504200935||ADT^A08|MSG01802|P|2.5
+EVN|A08|202504200935
+PID|1||P100018^^^REGIONAL_UROLOGY_CLINIC^MR||Silva^Lucas^Andre||19870322|M||2106-3|15 Quartz Way^^Denver^CO^80202^USA||(555)010-0018|||S||AC000018|999-88-0018
+PV1|1|O|CLINIC^01^01^REGIONAL_UROLOGY_CLINIC|||Bell^Marcus|||UROL||||V001802|||Bell^Marcus|||||||||||||||||||||||||202504200905
+DG1|1||Z87.442^Personal history of urinary calculi^ICD-10||202504200935|A
+RXE|^^^RX2102^Hydration plan|Increase fluids to 2 liters daily|PO
+OBR|1||OB01802|FOLLOW^Post-stone follow-up|||202504200905
+OBX|1|NM|PAIN^Pain Score||1|/10|0-10|N|||F
+OBX|2|ST|HEMAT^Hematuria||Resolved|||N|||F
+NTE|1||Symptoms resolved after stone passage.
+AL1|1||NKDA^No Known Drug Allergies
