@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 
-DATA_FILE = Path("portal/data/patients.json")
+DATA_FILE = Path("data/patients.json")
 
 
 def inspect_patients_json(file_path: Path) -> None:

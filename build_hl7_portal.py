@@ -1,12 +1,15 @@
+import json
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from textwrap import dedent
 
 
-OUTPUT_DIR = Path("portal")
+OUTPUT_DIR = Path(".")
 RAW_DIR = OUTPUT_DIR / "raw_hl7"
 PATIENTS_DIR = OUTPUT_DIR / "patients"
+DATA_DIR = OUTPUT_DIR / "data"
+DATA_FILE = DATA_DIR / "patients.json"
 
 
 EXISTING_PATIENTS = [
@@ -945,6 +948,7 @@ h1 {
 def main() -> None:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     PATIENTS_DIR.mkdir(parents=True, exist_ok=True)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     cards = []
     for patient_index, patient in enumerate(PATIENTS, start=1):
@@ -961,6 +965,7 @@ def main() -> None:
 
     (OUTPUT_DIR / "index.html").write_text(index_html(cards, len(PATIENTS)), encoding="utf-8")
     (OUTPUT_DIR / "styles.css").write_text(styles_css(), encoding="utf-8")
+    DATA_FILE.write_text(json.dumps(PATIENTS, indent=2), encoding="utf-8")
 
     print(f"Built HealthDataX with {len(PATIENTS)} patients.")
 
