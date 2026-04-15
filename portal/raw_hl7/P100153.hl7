@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|METRO_PULMONARY_HOSPITAL|LAB_SYSTEM|METRO_PULMONARY_LAB|202702101800||ADT^A01|MSG15301|P|2.5
+EVN|A01|202702101800
+PID|1||P100153^^^METRO_PULMONARY_HOSPITAL^MR||Morrison^Leona^Elena||19850722|M||2106-3|222 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0153|||S||AC000153|999-88-0153
+PV1|1|E|ER^06^01^METRO_PULMONARY_HOSPITAL|||Stone^Elias|||PULM||||V015301|||Stone^Elias|||||||||||||||||||||||||202702101730
+DG1|1||J44.1^COPD with acute exacerbation^ICD-10||202702101800|A
+RXE|^^^RX1401^Ipratropium/Albuterol|Nebulized every 4 hours|INH
+OBR|1||OB15301|RESP^COPD exacerbation panel|||202702101730
+OBX|1|NM|O2SAT^Oxygen Saturation||88|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||25|/min|12-20|H|||F
+NTE|1||Emergency visit for worsening shortness of breath.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|METRO_PULMONARY_HOSPITAL|LAB_SYSTEM|METRO_PULMONARY_LAB|202702120915||ADT^A01|MSG15302|P|2.5
+EVN|A01|202702120915
+PID|1||P100153^^^METRO_PULMONARY_HOSPITAL^MR||Morrison^Leona^Elena||19850722|M||2106-3|222 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0153|||S||AC000153|999-88-0153
+PV1|1|I|MEDSURG^04^08^METRO_PULMONARY_HOSPITAL|||Stone^Elias|||PULM||||V015302|||Stone^Elias|||||||||||||||||||||||||202702120845
+DG1|1||J44.1^COPD with acute exacerbation^ICD-10||202702120915|A
+RXE|^^^RX1402^Prednisone|40 mg daily|PO
+OBR|1||OB15302|FOLLOW^Inpatient respiratory monitoring|||202702120845
+OBX|1|NM|O2SAT^Oxygen Saturation||92|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||21|/min|12-20|H|||F
+NTE|1||Admitted after persistent hypoxia.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|METRO_PULMONARY_CLINIC|LAB_SYSTEM|METRO_PULMONARY_LAB|202703101000||ADT^A08|MSG15303|P|2.5
+EVN|A08|202703101000
+PID|1||P100153^^^METRO_PULMONARY_CLINIC^MR||Morrison^Leona^Elena||19850722|M||2106-3|222 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0153|||S||AC000153|999-88-0153
+PV1|1|O|CLINIC^01^01^METRO_PULMONARY_CLINIC|||Stone^Elias|||PULM||||V015303|||Stone^Elias|||||||||||||||||||||||||202703100930
+DG1|1||J44.9^Chronic obstructive pulmonary disease^ICD-10||202703101000|A
+RXE|^^^RX1403^Tiotropium inhaler|1 capsule inhaled daily|INH
+OBR|1||OB15303|FOLLOW^Pulmonary follow-up|||202703100930
+OBX|1|NM|O2SAT^Oxygen Saturation||95|%|95-100|N|||F
+OBX|2|NM|RESP^Respiratory Rate||18|/min|12-20|N|||F
+NTE|1||Outpatient follow-up after inpatient treatment.
+AL1|1||SHELL^Shellfish allergy

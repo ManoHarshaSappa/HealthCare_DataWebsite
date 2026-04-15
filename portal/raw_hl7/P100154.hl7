@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|WOMEN'S_HEALTH_CLINIC|LAB_SYSTEM|REGIONAL_MICRO_LAB|202702151130||ADT^A04|MSG15401|P|2.5
+EVN|A04|202702151130
+PID|1||P100154^^^WOMEN'S_HEALTH_CLINIC^MR||Nakamura^Micah^Amir||19860823|F||2106-3|223 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0154|||S||AC000154|999-88-0154
+PV1|1|O|CLINIC^01^01^WOMEN'S_HEALTH_CLINIC|||Ng^Julia|||FM||||V015401|||Ng^Julia|||||||||||||||||||||||||202702151100
+DG1|1||N39.0^Urinary tract infection^ICD-10||202702151130|A
+RXE|^^^RX1501^Nitrofurantoin|100 mg twice daily for 5 days|PO
+OBR|1||OB15401|URINE^Urinalysis|||202702151100
+OBX|1|NM|UAWBC^Urine WBC||24|/HPF|0-5|H|||F
+OBX|2|ST|NITRITE^Nitrite||Positive|||A|||F
+NTE|1||Initial urinary symptoms treated outpatient.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|REGIONAL_MEDICAL_CENTER|LAB_SYSTEM|REGIONAL_MICRO_LAB|202702221720||ADT^A01|MSG15402|P|2.5
+EVN|A01|202702221720
+PID|1||P100154^^^REGIONAL_MEDICAL_CENTER^MR||Nakamura^Micah^Amir||19860823|F||2106-3|223 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0154|||S||AC000154|999-88-0154
+PV1|1|E|ER^03^02^REGIONAL_MEDICAL_CENTER|||Ng^Julia|||FM||||V015402|||Ng^Julia|||||||||||||||||||||||||202702221650
+DG1|1||N10^Acute pyelonephritis^ICD-10||202702221720|A
+RXE|^^^RX1502^Ciprofloxacin|500 mg twice daily for 7 days|PO
+OBR|1||OB15402|CBC^Infection evaluation|||202702221650
+OBX|1|NM|TEMP^Body Temperature||102.0|F|97-99|H|||F
+OBX|2|NM|UAWBC^Urine WBC||37|/HPF|0-5|H|||F
+NTE|1||Returned with flank pain and worsening infection.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|WOMEN'S_HEALTH_CLINIC|LAB_SYSTEM|REGIONAL_MICRO_LAB|202703080910||ADT^A08|MSG15403|P|2.5
+EVN|A08|202703080910
+PID|1||P100154^^^WOMEN'S_HEALTH_CLINIC^MR||Nakamura^Micah^Amir||19860823|F||2106-3|223 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0154|||S||AC000154|999-88-0154
+PV1|1|O|CLINIC^01^01^WOMEN'S_HEALTH_CLINIC|||Ng^Julia|||FM||||V015403|||Ng^Julia|||||||||||||||||||||||||202703080840
+DG1|1||Z09^Follow-up after urinary infection treatment^ICD-10||202703080910|A
+RXE|^^^RX1503^Cranberry supplement|Once daily|PO
+OBR|1||OB15403|URINE^Repeat urinalysis|||202703080840
+OBX|1|NM|TEMP^Body Temperature||98.7|F|97-99|N|||F
+OBX|2|NM|UAWBC^Urine WBC||4|/HPF|0-5|N|||F
+NTE|1||Resolved symptoms after antibiotic change.
+AL1|1||NKFA^No Known Food Allergies

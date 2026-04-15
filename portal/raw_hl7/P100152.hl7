@@ -1,0 +1,47 @@
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202702050835||ADT^A04|MSG15201|P|2.5
+EVN|A04|202702050835
+PID|1||P100152^^^RENAL_CARE_GROUP^MR||Reyes^Seth^David||19840621|F||2106-3|221 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0152|||S||AC000152|999-88-0152
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V015201|||Cole^Aaron|||||||||||||||||||||||||202702050805
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202702050835|A
+RXE|^^^RX1301^Losartan|25 mg daily|PO
+OBR|1||OB15201|RENAL^Renal function panel|||202702050805
+OBX|1|NM|CREAT^Creatinine||1.6|mg/dL|0.6-1.3|H|||F
+OBX|2|NM|EGFR^Estimated GFR||55|mL/min|>60|L|||F
+NTE|1||Chronic kidney disease monitoring visit.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202705010900||ADT^A08|MSG15202|P|2.5
+EVN|A08|202705010900
+PID|1||P100152^^^RENAL_CARE_GROUP^MR||Reyes^Seth^David||19840621|F||2106-3|221 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0152|||S||AC000152|999-88-0152
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V015202|||Cole^Aaron|||||||||||||||||||||||||202705010830
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202705010900|A
+RXE|^^^RX1302^Losartan|50 mg daily|PO
+OBR|1||OB15202|RENAL^Repeat renal function panel|||202705010830
+OBX|1|NM|CREAT^Creatinine||1.8|mg/dL|0.6-1.3|H|||F
+OBX|2|NM|EGFR^Estimated GFR||48|mL/min|>60|L|||F
+NTE|1||Renal function worsened slightly; medication adjusted.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202707050850||ADT^A08|MSG15203|P|2.5
+EVN|A08|202707050850
+PID|1||P100152^^^RENAL_CARE_GROUP^MR||Reyes^Seth^David||19840621|F||2106-3|221 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0152|||S||AC000152|999-88-0152
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V015203|||Cole^Aaron|||||||||||||||||||||||||202707050820
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202707050850|A
+RXE|^^^RX1303^Losartan|50 mg daily|PO
+OBR|1||OB15203|RENAL^Kidney disease surveillance|||202707050820
+OBX|1|NM|CREAT^Creatinine||1.7|mg/dL|0.6-1.3|H|||F
+OBX|2|NM|EGFR^Estimated GFR||52|mL/min|>60|L|||F
+NTE|1||Close follow-up after medication adjustment.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202710030910||ADT^A08|MSG15204|P|2.5
+EVN|A08|202710030910
+PID|1||P100152^^^RENAL_CARE_GROUP^MR||Reyes^Seth^David||19840621|F||2106-3|221 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0152|||S||AC000152|999-88-0152
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V015204|||Cole^Aaron|||||||||||||||||||||||||202710030840
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202710030910|A
+RXE|^^^RX1304^Losartan|50 mg daily|PO
+OBR|1||OB15204|RENAL^Longitudinal renal follow-up|||202710030840
+OBX|1|NM|CREAT^Creatinine||1.5|mg/dL|0.6-1.3|N|||F
+OBX|2|NM|EGFR^Estimated GFR||59|mL/min|>60|N|||F
+NTE|1||Kidney function stabilized on repeat follow-up.
+AL1|1||IBU^Ibuprofen allergy

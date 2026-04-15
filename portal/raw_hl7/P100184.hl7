@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|INOVA_HOSPITAL|LAB_SYSTEM|INOVA_LAB|202707151310||ADT^A01|MSG18401|P|2.5
+EVN|A01|202707151310
+PID|1||P100184^^^INOVA_HOSPITAL^MR||Keller^Micah^Skye||19870226|F||2106-3|253 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0184|||S||AC000184|999-88-0184
+PV1|1|E|ER^01^01^INOVA_HOSPITAL|||Miller^John|||SURG||||V018401|||Miller^John|||||||||||||||||||||||||202707151240
+DG1|1||K35.80^Acute appendicitis^ICD-10||202707151310|A
+RXE|^^^RX201^Ceftriaxone|1 g IV|IV
+OBR|1||OB18401|CBC^Complete Blood Count|||202707151240
+OBX|1|NM|WBC^White Blood Cell Count||15200|cells/uL|4000-11000|H|||F
+OBX|2|NM|TEMP^Body Temperature||101.3|F|97-99|H|||F
+NTE|1||Emergency presentation with abdominal pain.
+AL1|1||IBU^Ibuprofen allergy
+
+MSH|^~\&|EHR_SYSTEM|INOVA_SURGICAL_FOLLOW_UP|LAB_SYSTEM|INOVA_LAB|202707290930||ADT^A08|MSG18402|P|2.5
+EVN|A08|202707290930
+PID|1||P100184^^^INOVA_SURGICAL_FOLLOW_UP^MR||Keller^Micah^Skye||19870226|F||2106-3|253 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0184|||S||AC000184|999-88-0184
+PV1|1|O|CLINIC^01^01^INOVA_SURGICAL_FOLLOW_UP|||Miller^John|||SURG||||V018402|||Miller^John|||||||||||||||||||||||||202707290900
+DG1|1||Z09^Follow-up examination after appendectomy^ICD-10||202707290930|A
+RXE|^^^RX202^Acetaminophen|500 mg every 6 hours as needed|PO
+OBR|1||OB18402|POSTOP^Post-operative review|||202707290900
+OBX|1|NM|WBC^White Blood Cell Count||8320|cells/uL|4000-11000|N|||F
+OBX|2|NM|TEMP^Body Temperature||98.6|F|97-99|N|||F
+NTE|1||Surgical follow-up with improving symptoms.
+AL1|1||IBU^Ibuprofen allergy

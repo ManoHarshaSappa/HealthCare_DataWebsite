@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|HOUSTON_MEDICAL_CENTER|LAB_SYSTEM|HOUSTON_DIAGNOSTIC_LAB|202704011525||ADT^A01|MSG16301|P|2.5
+EVN|A01|202704011525
+PID|1||P100163^^^HOUSTON_MEDICAL_CENTER^MR||Patel^Huda^Daniel||19950505|M||2106-3|232 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0163|||S||AC000163|999-88-0163
+PV1|1|E|ER^01^01^HOUSTON_MEDICAL_CENTER|||Hughes^Sarah|||PULM||||V016301|||Hughes^Sarah|||||||||||||||||||||||||202704011455
+DG1|1||J18.9^Pneumonia, unspecified organism^ICD-10||202704011525|A
+RXE|^^^RX301^Azithromycin|500 mg daily|PO
+OBR|1||OB16301|CXR^Chest X-Ray review|||202704011455
+OBX|1|NM|O2SAT^Oxygen Saturation||90|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||25|/min|12-20|H|||F
+NTE|1||Presented to emergency department with cough and hypoxia.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|HOUSTON_MEDICAL_CENTER|LAB_SYSTEM|HOUSTON_DIAGNOSTIC_LAB|202704031020||ADT^A01|MSG16302|P|2.5
+EVN|A01|202704031020
+PID|1||P100163^^^HOUSTON_MEDICAL_CENTER^MR||Patel^Huda^Daniel||19950505|M||2106-3|232 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0163|||S||AC000163|999-88-0163
+PV1|1|I|MEDSURG^03^12^HOUSTON_MEDICAL_CENTER|||Hughes^Sarah|||PULM||||V016302|||Hughes^Sarah|||||||||||||||||||||||||202704030950
+DG1|1||J18.9^Community-acquired pneumonia^ICD-10||202704031020|A
+RXE|^^^RX302^Ceftriaxone|1 g daily|IV
+OBR|1||OB16302|ABG^Respiratory monitoring|||202704030950
+OBX|1|NM|O2SAT^Oxygen Saturation||93|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||21|/min|12-20|H|||F
+NTE|1||Admitted for intravenous antibiotics and oxygen support.
+AL1|1||NKDA^No Known Drug Allergies
+
+MSH|^~\&|EHR_SYSTEM|HOUSTON_PULMONARY_ASSOCIATES|LAB_SYSTEM|HOUSTON_DIAGNOSTIC_LAB|202704221100||ADT^A08|MSG16303|P|2.5
+EVN|A08|202704221100
+PID|1||P100163^^^HOUSTON_PULMONARY_ASSOCIATES^MR||Patel^Huda^Daniel||19950505|M||2106-3|232 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0163|||S||AC000163|999-88-0163
+PV1|1|O|CLINIC^01^01^HOUSTON_PULMONARY_ASSOCIATES|||Hughes^Sarah|||PULM||||V016303|||Hughes^Sarah|||||||||||||||||||||||||202704221030
+DG1|1||Z09^Follow-up after pneumonia treatment^ICD-10||202704221100|A
+RXE|^^^RX303^Albuterol inhaler|2 puffs as needed|INH
+OBR|1||OB16303|FOLLOW^Pulmonary follow-up|||202704221030
+OBX|1|NM|O2SAT^Oxygen Saturation||97|%|95-100|N|||F
+OBX|2|NM|RESP^Respiratory Rate||16|/min|12-20|N|||F
+NTE|1||Breathing normalized on follow-up.
+AL1|1||NKDA^No Known Drug Allergies

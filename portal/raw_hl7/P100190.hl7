@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202708141040||ADT^A04|MSG19001|P|2.5
+EVN|A04|202708141040
+PID|1||P100190^^^SEATTLE_NEURO_CLINIC^MR||Farah^Caleb^Rae||19930805|F||2106-3|259 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0190|||S||AC000190|999-88-0190
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V019001|||Brown^Natalie|||||||||||||||||||||||||202708141010
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202708141040|A
+RXE|^^^RX801^Sumatriptan|50 mg as needed|PO
+OBR|1||OB19001|NEURO^Headache assessment|||202708141010
+OBX|1|NM|PAIN^Headache Severity||9|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||5|hours|6-8|L|||F
+NTE|1||Migraine symptoms interfering with sleep.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202709230930||ADT^A08|MSG19002|P|2.5
+EVN|A08|202709230930
+PID|1||P100190^^^SEATTLE_NEURO_CLINIC^MR||Farah^Caleb^Rae||19930805|F||2106-3|259 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0190|||S||AC000190|999-88-0190
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V019002|||Brown^Natalie|||||||||||||||||||||||||202709230900
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202709230930|A
+RXE|^^^RX802^Sumatriptan + Topiramate|50 mg PRN + 25 mg nightly|PO
+OBR|1||OB19002|FOLLOW^Medication review|||202709230900
+OBX|1|NM|PAIN^Headache Severity||6|/10|0-10|H|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Preventive medication added after partial response.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|SEATTLE_NEURO_CLINIC|LAB_SYSTEM|SEATTLE_DIAGNOSTIC_LAB|202711220855||ADT^A08|MSG19003|P|2.5
+EVN|A08|202711220855
+PID|1||P100190^^^SEATTLE_NEURO_CLINIC^MR||Farah^Caleb^Rae||19930805|F||2106-3|259 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0190|||S||AC000190|999-88-0190
+PV1|1|O|CLINIC^01^01^SEATTLE_NEURO_CLINIC|||Brown^Natalie|||NEUR||||V019003|||Brown^Natalie|||||||||||||||||||||||||202711220825
+DG1|1||G43.909^Migraine, unspecified^ICD-10||202711220855|A
+RXE|^^^RX803^Topiramate|50 mg nightly|PO
+OBR|1||OB19003|FOLLOW^Neurology follow-up|||202711220825
+OBX|1|NM|PAIN^Headache Severity||3|/10|0-10|N|||F
+OBX|2|NM|SLEEP^Sleep Hours||7|hours|6-8|N|||F
+NTE|1||Headache frequency reduced on preventive regimen.
+AL1|1||SULFA^Sulfonamide allergy

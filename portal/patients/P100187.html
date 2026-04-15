@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tara Javier Wallace | HealthDataX</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <main class="page detail-page">
+      <a class="back-link" href="../index.html">Back to Patients</a>
+
+      <section class="detail-header">
+        <div>
+          <p class="eyebrow">Patient HL7 Record</p>
+          <h1>Tara Javier Wallace</h1>
+          <p class="subtitle">Username: tara.wallace187 | Password: Tara@187 | Visits: 3</p>
+        </div>
+      </section>
+
+      <section class="hl7-panel">
+        <div class="hl7-top">
+          <strong>Raw HL7 Message History</strong>
+          <span>P100187</span>
+        </div>
+        <pre id="hl7-output" class="hl7-output" data-source="../raw_hl7/P100187.hl7">Loading HL7...</pre>
+      </section>
+    </main>
+
+    <script>
+      const output = document.getElementById("hl7-output");
+      fetch(output.dataset.source)
+        .then((response) => response.text())
+        .then((text) => {
+          output.textContent = text;
+        })
+        .catch((error) => {
+          output.textContent = "Unable to load HL7: " + error.message;
+        });
+    </script>
+  </body>
+</html>

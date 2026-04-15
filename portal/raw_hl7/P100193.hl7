@@ -1,0 +1,10 @@
+MSH|^~\&|EHR_SYSTEM|PRIMARYCARE_ASSOCIATES|LAB_SYSTEM|REGIONAL_PREVENTIVE_LAB|202708290820||ADT^A04|MSG19301|P|2.5
+EVN|A04|202708290820
+PID|1||P100193^^^PRIMARYCARE_ASSOCIATES^MR||Morrison^Huda^Elena||19961108|M||2106-3|262 Maple Crest Drive^^Irvine^CA^92612^USA||(555)010-0193|||S||AC000193|999-88-0193
+PV1|1|O|CLINIC^01^01^PRIMARYCARE_ASSOCIATES|||Ross^Megan|||FM||||V019301|||Ross^Megan|||||||||||||||||||||||||202708290750
+DG1|1||Z00.00^Adult general medical examination^ICD-10||202708290820|A
+OBR|1||OB19301|ANNUAL^Annual physical screening|||202708290750
+OBX|1|NM|CHOL^Total Cholesterol||190|mg/dL|<200|N|||F
+OBX|2|NM|BMI^Body Mass Index||25.9|kg/m2|18.5-24.9|H|||F
+NTE|1||Routine annual physical with preventive screening.
+AL1|1||SHELL^Shellfish allergy

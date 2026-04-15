@@ -1,0 +1,47 @@
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202705260835||ADT^A04|MSG17401|P|2.5
+EVN|A04|202705260835
+PID|1||P100174^^^RENAL_CARE_GROUP^MR||Nakamura^Nora^Amir||19770416|F||2106-3|243 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0174|||S||AC000174|999-88-0174
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V017401|||Cole^Aaron|||||||||||||||||||||||||202705260805
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202705260835|A
+RXE|^^^RX1301^Losartan|25 mg daily|PO
+OBR|1||OB17401|RENAL^Renal function panel|||202705260805
+OBX|1|NM|CREAT^Creatinine||1.4|mg/dL|0.6-1.3|H|||F
+OBX|2|NM|EGFR^Estimated GFR||61|mL/min|>60|L|||F
+NTE|1||Chronic kidney disease monitoring visit.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202708190900||ADT^A08|MSG17402|P|2.5
+EVN|A08|202708190900
+PID|1||P100174^^^RENAL_CARE_GROUP^MR||Nakamura^Nora^Amir||19770416|F||2106-3|243 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0174|||S||AC000174|999-88-0174
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V017402|||Cole^Aaron|||||||||||||||||||||||||202708190830
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202708190900|A
+RXE|^^^RX1302^Losartan|50 mg daily|PO
+OBR|1||OB17402|RENAL^Repeat renal function panel|||202708190830
+OBX|1|NM|CREAT^Creatinine||1.6|mg/dL|0.6-1.3|H|||F
+OBX|2|NM|EGFR^Estimated GFR||54|mL/min|>60|L|||F
+NTE|1||Renal function worsened slightly; medication adjusted.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202710230850||ADT^A08|MSG17403|P|2.5
+EVN|A08|202710230850
+PID|1||P100174^^^RENAL_CARE_GROUP^MR||Nakamura^Nora^Amir||19770416|F||2106-3|243 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0174|||S||AC000174|999-88-0174
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V017403|||Cole^Aaron|||||||||||||||||||||||||202710230820
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202710230850|A
+RXE|^^^RX1303^Losartan|50 mg daily|PO
+OBR|1||OB17403|RENAL^Kidney disease surveillance|||202710230820
+OBX|1|NM|CREAT^Creatinine||1.5|mg/dL|0.6-1.3|H|||F
+OBX|2|NM|EGFR^Estimated GFR||56|mL/min|>60|L|||F
+NTE|1||Close follow-up after medication adjustment.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|RENAL_CARE_GROUP|LAB_SYSTEM|RENAL_DIAGNOSTICS|202801210910||ADT^A08|MSG17404|P|2.5
+EVN|A08|202801210910
+PID|1||P100174^^^RENAL_CARE_GROUP^MR||Nakamura^Nora^Amir||19770416|F||2106-3|243 Willow Bend Drive^^Tallahassee^FL^32301^USA||(555)010-0174|||S||AC000174|999-88-0174
+PV1|1|O|CLINIC^01^01^RENAL_CARE_GROUP|||Cole^Aaron|||NEPH||||V017404|||Cole^Aaron|||||||||||||||||||||||||202801210840
+DG1|1||N18.2^Chronic kidney disease stage 2^ICD-10||202801210910|A
+RXE|^^^RX1304^Losartan|50 mg daily|PO
+OBR|1||OB17404|RENAL^Longitudinal renal follow-up|||202801210840
+OBX|1|NM|CREAT^Creatinine||1.3|mg/dL|0.6-1.3|N|||F
+OBX|2|NM|EGFR^Estimated GFR||63|mL/min|>60|N|||F
+NTE|1||Kidney function stabilized on repeat follow-up.
+AL1|1||SULFA^Sulfonamide allergy

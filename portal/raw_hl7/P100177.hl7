@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|ENDOCRINE_WELLNESS_CENTER|LAB_SYSTEM|HORMONE_REFERENCE_LAB|202706100830||ADT^A04|MSG17701|P|2.5
+EVN|A04|202706100830
+PID|1||P100177^^^ENDOCRINE_WELLNESS_CENTER^MR||Hassan^Jonah^Ibrahim||19800719|M||2106-3|246 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0177|||S||AC000177|999-88-0177
+PV1|1|O|CLINIC^01^01^ENDOCRINE_WELLNESS_CENTER|||Nguyen^Linda|||ENDO||||V017701|||Nguyen^Linda|||||||||||||||||||||||||202706100800
+DG1|1||E03.9^Hypothyroidism, unspecified^ICD-10||202706100830|A
+RXE|^^^RX1601^Levothyroxine|50 mcg daily|PO
+OBR|1||OB17701|TSH^Thyroid function panel|||202706100800
+OBX|1|NM|TSH^Thyroid Stimulating Hormone||5.8|uIU/mL|0.4-4.0|H|||F
+OBX|2|NM|FREE_T4^Free T4||0.8|ng/dL|0.8-1.8|N|||F
+NTE|1||Initial thyroid maintenance visit.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|ENDOCRINE_WELLNESS_CENTER|LAB_SYSTEM|HORMONE_REFERENCE_LAB|202708240850||ADT^A08|MSG17702|P|2.5
+EVN|A08|202708240850
+PID|1||P100177^^^ENDOCRINE_WELLNESS_CENTER^MR||Hassan^Jonah^Ibrahim||19800719|M||2106-3|246 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0177|||S||AC000177|999-88-0177
+PV1|1|O|CLINIC^01^01^ENDOCRINE_WELLNESS_CENTER|||Nguyen^Linda|||ENDO||||V017702|||Nguyen^Linda|||||||||||||||||||||||||202708240820
+DG1|1||E03.9^Hypothyroidism, unspecified^ICD-10||202708240850|A
+RXE|^^^RX1602^Levothyroxine|75 mcg daily|PO
+OBR|1||OB17702|TSH^Medication adjustment follow-up|||202708240820
+OBX|1|NM|TSH^Thyroid Stimulating Hormone||3.2|uIU/mL|0.4-4.0|N|||F
+OBX|2|NM|FREE_T4^Free T4||1.0|ng/dL|0.8-1.8|N|||F
+NTE|1||Dose adjusted after elevated TSH.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|ENDOCRINE_WELLNESS_CENTER|LAB_SYSTEM|HORMONE_REFERENCE_LAB|202711220905||ADT^A08|MSG17703|P|2.5
+EVN|A08|202711220905
+PID|1||P100177^^^ENDOCRINE_WELLNESS_CENTER^MR||Hassan^Jonah^Ibrahim||19800719|M||2106-3|246 Maple Crest Drive^^Tulsa^OK^74103^USA||(555)010-0177|||S||AC000177|999-88-0177
+PV1|1|O|CLINIC^01^01^ENDOCRINE_WELLNESS_CENTER|||Nguyen^Linda|||ENDO||||V017703|||Nguyen^Linda|||||||||||||||||||||||||202711220835
+DG1|1||E03.9^Hypothyroidism, unspecified^ICD-10||202711220905|A
+RXE|^^^RX1603^Levothyroxine|75 mcg daily|PO
+OBR|1||OB17703|TSH^Chronic thyroid surveillance|||202711220835
+OBX|1|NM|TSH^Thyroid Stimulating Hormone||2.5|uIU/mL|0.4-4.0|N|||F
+OBX|2|NM|FREE_T4^Free T4||1.1|ng/dL|0.8-1.8|N|||F
+NTE|1||Stable repeat monitoring visit.
+AL1|1||SHELL^Shellfish allergy

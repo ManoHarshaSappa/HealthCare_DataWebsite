@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|REGIONAL_MEDICAL_CENTER|LAB_SYSTEM|UROLOGY_IMAGING_LAB|202707051645||ADT^A01|MSG18201|P|2.5
+EVN|A01|202707051645
+PID|1||P100182^^^REGIONAL_MEDICAL_CENTER^MR||Nguyen^Seth^Lee||19851224|F||2106-3|251 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0182|||S||AC000182|999-88-0182
+PV1|1|E|ER^08^01^REGIONAL_MEDICAL_CENTER|||Bell^Marcus|||UROL||||V018201|||Bell^Marcus|||||||||||||||||||||||||202707051615
+DG1|1||N20.0^Kidney stone^ICD-10||202707051645|A
+RXE|^^^RX2101^Tamsulosin|0.4 mg daily|PO
+OBR|1||OB18201|CTABD^Renal colic imaging review|||202707051615
+OBX|1|NM|PAIN^Pain Score||7|/10|0-10|H|||F
+OBX|2|ST|HEMAT^Hematuria||Present|||A|||F
+NTE|1||Emergency renal colic presentation.
+AL1|1||SULFA^Sulfonamide allergy
+
+MSH|^~\&|EHR_SYSTEM|REGIONAL_UROLOGY_CLINIC|LAB_SYSTEM|UROLOGY_IMAGING_LAB|202707190935||ADT^A08|MSG18202|P|2.5
+EVN|A08|202707190935
+PID|1||P100182^^^REGIONAL_UROLOGY_CLINIC^MR||Nguyen^Seth^Lee||19851224|F||2106-3|251 Willow Bend Drive^^Plano^TX^75024^USA||(555)010-0182|||S||AC000182|999-88-0182
+PV1|1|O|CLINIC^01^01^REGIONAL_UROLOGY_CLINIC|||Bell^Marcus|||UROL||||V018202|||Bell^Marcus|||||||||||||||||||||||||202707190905
+DG1|1||Z87.442^Personal history of urinary calculi^ICD-10||202707190935|A
+RXE|^^^RX2102^Hydration plan|Increase fluids to 2 liters daily|PO
+OBR|1||OB18202|FOLLOW^Post-stone follow-up|||202707190905
+OBX|1|NM|PAIN^Pain Score||1|/10|0-10|N|||F
+OBX|2|ST|HEMAT^Hematuria||Resolved|||N|||F
+NTE|1||Symptoms resolved after stone passage.
+AL1|1||SULFA^Sulfonamide allergy

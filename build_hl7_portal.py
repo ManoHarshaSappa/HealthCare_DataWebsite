@@ -236,7 +236,7 @@ def build_existing_patient_records() -> list[dict]:
 PATIENTS = (
     build_existing_patient_records()
     + build_additional_patient_records()
-    + build_generated_patient_records(start_offset=51, count=100)
+    + build_generated_patient_records(start_offset=51, count=150)
 )
 
 
@@ -682,6 +682,7 @@ body {
   margin: 0;
   font-family: Inter, Roboto, "Segoe UI", sans-serif;
   background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  padding: 20px 20px;
   color: var(--text);
 }
 
@@ -691,9 +692,9 @@ a {
 }
 
 .page {
-  width: calc(100% - 24px);
+  width: min(1520px, calc(100% - 96px));
   margin: 0 auto;
-  padding: 0 0 36px;
+  padding: 24px 0 48px;
 }
 
 .topbar {
@@ -736,9 +737,9 @@ a {
   margin-bottom: 16px;
   padding: 16px 18px;
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  box-shadow: var(--shadow);
+  /* border: 1px solid var(--border); */
+  /* border-radius: 18px; */
+  /* box-shadow: var(--shadow); */
 }
 
 .welcome-copy strong {
@@ -791,6 +792,7 @@ h1 {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 22px;
+  padding: 24px 34px;
   box-shadow: var(--shadow);
 }
 
@@ -888,7 +890,7 @@ h1 {
 
 @media (max-width: 720px) {
   .page {
-    width: calc(100% - 12px);
+    width: calc(100% - 24px);
     padding-top: 0;
   }
 

@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|PACIFIC_CARE_HOSPITAL|LAB_SYSTEM|PACIFIC_IMAGING_CENTER|202707251400||ADT^A01|MSG18601|P|2.5
+EVN|A01|202707251400
+PID|1||P100186^^^PACIFIC_CARE_HOSPITAL^MR||Morales^Ruben^Kumar||19890401|F||2106-3|255 Willow Bend Drive^^Reno^NV^89501^USA||(555)010-0186|||S||AC000186|999-88-0186
+PV1|1|E|ER^02^01^PACIFIC_CARE_HOSPITAL|||Lopez^Maria|||EMED||||V018601|||Lopez^Maria|||||||||||||||||||||||||202707251330
+DG1|1||S93.401A^Right ankle sprain^ICD-10||202707251400|A
+RXE|^^^RX401^Ibuprofen|400 mg every 8 hours|PO
+OBR|1||OB18601|ANKXR^Ankle imaging review|||202707251330
+OBX|1|NM|PAIN^Pain Score||7|/10|0-10|H|||F
+OBX|2|ST|SWELL^Ankle Swelling||Moderate|||A|||F
+NTE|1||Twisting injury during recreational activity.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|PACIFIC_SPORTS_MEDICINE|LAB_SYSTEM|PACIFIC_IMAGING_CENTER|202708060850||ADT^A08|MSG18602|P|2.5
+EVN|A08|202708060850
+PID|1||P100186^^^PACIFIC_SPORTS_MEDICINE^MR||Morales^Ruben^Kumar||19890401|F||2106-3|255 Willow Bend Drive^^Reno^NV^89501^USA||(555)010-0186|||S||AC000186|999-88-0186
+PV1|1|O|CLINIC^01^01^PACIFIC_SPORTS_MEDICINE|||Lopez^Maria|||ORTH||||V018602|||Lopez^Maria|||||||||||||||||||||||||202708060820
+DG1|1||Z09^Follow-up after ankle sprain^ICD-10||202708060850|A
+RXE|^^^RX402^Naproxen|250 mg twice daily as needed|PO
+OBR|1||OB18602|REHAB^Mobility reassessment|||202708060820
+OBX|1|NM|PAIN^Pain Score||3|/10|0-10|N|||F
+OBX|2|ST|SWELL^Ankle Swelling||Mild|||N|||F
+NTE|1||Follow-up visit after bracing and rest.
+AL1|1||NKFA^No Known Food Allergies

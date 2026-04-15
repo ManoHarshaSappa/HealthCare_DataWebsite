@@ -1,0 +1,23 @@
+MSH|^~\&|EHR_SYSTEM|BAY_ORTHO_MEDICAL|LAB_SYSTEM|BAY_IMAGING_LAB|202705061100||ADT^A04|MSG17001|P|2.5
+EVN|A04|202705061100
+PID|1||P100170^^^BAY_ORTHO_MEDICAL^MR||Farah^Theo^Rae||19731212|F||2106-3|239 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0170|||S||AC000170|999-88-0170
+PV1|1|O|CLINIC^01^01^BAY_ORTHO_MEDICAL|||Wilson^Grace|||ORTH||||V017001|||Wilson^Grace|||||||||||||||||||||||||202705061030
+DG1|1||M54.50^Low back pain^ICD-10||202705061100|A
+RXE|^^^RX1001^Naproxen|500 mg twice daily|PO
+OBR|1||OB17001|SPXR^Spine evaluation|||202705061030
+OBX|1|NM|PAIN^Back Pain Score||8|/10|0-10|H|||F
+OBX|2|ST|MOB^Mobility Assessment||Reduced|||A|||F
+NTE|1||Mechanical back pain after lifting injury.
+AL1|1||NKFA^No Known Food Allergies
+
+MSH|^~\&|EHR_SYSTEM|BAY_ORTHO_MEDICAL|LAB_SYSTEM|BAY_IMAGING_LAB|202706031030||ADT^A08|MSG17002|P|2.5
+EVN|A08|202706031030
+PID|1||P100170^^^BAY_ORTHO_MEDICAL^MR||Farah^Theo^Rae||19731212|F||2106-3|239 Willow Bend Drive^^Spokane^WA^99201^USA||(555)010-0170|||S||AC000170|999-88-0170
+PV1|1|O|CLINIC^01^01^BAY_ORTHO_MEDICAL|||Wilson^Grace|||ORTH||||V017002|||Wilson^Grace|||||||||||||||||||||||||202706031000
+DG1|1||M54.50^Low back pain^ICD-10||202706031030|A
+RXE|^^^RX1002^Cyclobenzaprine|5 mg nightly as needed|PO
+OBR|1||OB17002|FOLLOW^Orthopedic follow-up|||202706031000
+OBX|1|NM|PAIN^Back Pain Score||5|/10|0-10|N|||F
+OBX|2|ST|MOB^Mobility Assessment||Improving|||N|||F
+NTE|1||Symptoms improving after home exercise program.
+AL1|1||NKFA^No Known Food Allergies

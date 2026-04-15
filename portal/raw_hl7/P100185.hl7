@@ -1,0 +1,35 @@
+MSH|^~\&|EHR_SYSTEM|HOUSTON_MEDICAL_CENTER|LAB_SYSTEM|HOUSTON_DIAGNOSTIC_LAB|202707201525||ADT^A01|MSG18501|P|2.5
+EVN|A01|202707201525
+PID|1||P100185^^^HOUSTON_MEDICAL_CENTER^MR||Salazar^Ava^Noor||19880327|M||2106-3|254 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0185|||S||AC000185|999-88-0185
+PV1|1|E|ER^01^01^HOUSTON_MEDICAL_CENTER|||Hughes^Sarah|||PULM||||V018501|||Hughes^Sarah|||||||||||||||||||||||||202707201455
+DG1|1||J18.9^Pneumonia, unspecified organism^ICD-10||202707201525|A
+RXE|^^^RX301^Azithromycin|500 mg daily|PO
+OBR|1||OB18501|CXR^Chest X-Ray review|||202707201455
+OBX|1|NM|O2SAT^Oxygen Saturation||89|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||26|/min|12-20|H|||F
+NTE|1||Presented to emergency department with cough and hypoxia.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|HOUSTON_MEDICAL_CENTER|LAB_SYSTEM|HOUSTON_DIAGNOSTIC_LAB|202707221020||ADT^A01|MSG18502|P|2.5
+EVN|A01|202707221020
+PID|1||P100185^^^HOUSTON_MEDICAL_CENTER^MR||Salazar^Ava^Noor||19880327|M||2106-3|254 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0185|||S||AC000185|999-88-0185
+PV1|1|I|MEDSURG^03^12^HOUSTON_MEDICAL_CENTER|||Hughes^Sarah|||PULM||||V018502|||Hughes^Sarah|||||||||||||||||||||||||202707220950
+DG1|1||J18.9^Community-acquired pneumonia^ICD-10||202707221020|A
+RXE|^^^RX302^Ceftriaxone|1 g daily|IV
+OBR|1||OB18502|ABG^Respiratory monitoring|||202707220950
+OBX|1|NM|O2SAT^Oxygen Saturation||92|%|95-100|L|||F
+OBX|2|NM|RESP^Respiratory Rate||22|/min|12-20|H|||F
+NTE|1||Admitted for intravenous antibiotics and oxygen support.
+AL1|1||SHELL^Shellfish allergy
+
+MSH|^~\&|EHR_SYSTEM|HOUSTON_PULMONARY_ASSOCIATES|LAB_SYSTEM|HOUSTON_DIAGNOSTIC_LAB|202708101100||ADT^A08|MSG18503|P|2.5
+EVN|A08|202708101100
+PID|1||P100185^^^HOUSTON_PULMONARY_ASSOCIATES^MR||Salazar^Ava^Noor||19880327|M||2106-3|254 Maple Crest Drive^^Des Moines^IA^50309^USA||(555)010-0185|||S||AC000185|999-88-0185
+PV1|1|O|CLINIC^01^01^HOUSTON_PULMONARY_ASSOCIATES|||Hughes^Sarah|||PULM||||V018503|||Hughes^Sarah|||||||||||||||||||||||||202708101030
+DG1|1||Z09^Follow-up after pneumonia treatment^ICD-10||202708101100|A
+RXE|^^^RX303^Albuterol inhaler|2 puffs as needed|INH
+OBR|1||OB18503|FOLLOW^Pulmonary follow-up|||202708101030
+OBX|1|NM|O2SAT^Oxygen Saturation||97|%|95-100|N|||F
+OBX|2|NM|RESP^Respiratory Rate||16|/min|12-20|N|||F
+NTE|1||Breathing normalized on follow-up.
+AL1|1||SHELL^Shellfish allergy
